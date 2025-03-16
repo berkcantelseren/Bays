@@ -1,3 +1,7 @@
+import { Jost } from "next/font/google";
+
+const jost = Jost({ subsets: ["latin"], weight: "700" });
+
 export default function Navbar() {
   return (
     <div className="h-[12vh] z-[100] w-full top-0 sticky">
@@ -7,23 +11,40 @@ export default function Navbar() {
       >
         {/* Logo Section  */}
         <div className="flex items-center justify-between align-middle w-[80%] h-[60%] mx-auto">
-          <h1 className="text-white font-bold text-2xl">BAYS</h1>
+          <h1 className={`${jost.className} text-white font-bold text-2xl`}>
+            BAYS
+          </h1>
 
-          <div className="absolute left-1/2 -translate-x-1/2 flex space-x-6 text-white">
-            <a href="">Home</a>
-            <a href="">Featuring</a>
-            <a href="">Pricing</a>
+          <div className="absolute left-1/2 -translate-x-[75%] flex space-x-6 text-white font-light">
+            <a
+              href=""
+              className="hover:underline hover:underline-offset-4 decoration-[1px]"
+            >
+              Home
+            </a>
+            <a
+              href=""
+              className="hover:underline hover:underline-offset-4 decoration-[1px]"
+            >
+              Featuring
+            </a>
+            <a
+              href=""
+              className="hover:underline hover:underline-offset-4 decoration-[1px]"
+            >
+              Pricing
+            </a>
           </div>
           <div className="ml-auto flex space-x-4">
             <a
               href="#_"
-              className="relative block w-auto px-6 py-3 overflow-hidden text-base font-semibold text-center text-gray-800 rounded-lg bg-gray-50 hover:text-black hover:bg-white"
+              className="relative block w-auto px-6 py-3 overflow-hidden text-base font-semibold text-center text-gray-800 rounded-lg bg-white"
             >
               Login
             </a>
             <a
               href="#_"
-              className="relative block w-auto px-6 py-3 overflow-hidden text-base font-semibold text-center text-gray-800 rounded-lg bg-gray-50 hover:text-black hover:bg-white"
+              className="relative block w-auto px-8 py-3 overflow-hidden text-base font-semibold text-center text-white rounded-lg bg-black"
             >
               Sign Up
             </a>
