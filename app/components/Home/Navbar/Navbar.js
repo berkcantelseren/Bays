@@ -1,10 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { Jost } from "next/font/google";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { CgClose } from "react-icons/cg";
-import Link from "next/link";
+import { FaMoon } from "react-icons/fa";
 
 // Fonts
 const jost = Jost({ subsets: ["latin"], weight: "700" });
@@ -59,12 +60,21 @@ export default function Navbar() {
               Sign Up
             </a>
           </div>
+
+          {/* Hamburger Menu For lg Below  */}
+
           <HiMiniBars3BottomRight
             className="w-8 h-8 text-white cursor-pointer lg:hidden"
             onClick={() => setShowNav(true)}
           />
+
+          <div className="hover:bg-white/25 rounded-xl shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[12.1px] border border-white/10 p-2">
+            <FaMoon className="w-5 h-5 text-white cursor-pointer" />
+          </div>
         </div>
       </div>
+
+      {/* Mobile Hamburger Section  */}
       {showNav && (
         <div className="fixed inset-0 bg-[#1E1E1E]/60 z-[1002] flex items-center justify-center">
           {/* Sidebar Menu */}
