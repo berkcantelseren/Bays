@@ -1,4 +1,5 @@
 import { Jost } from "next/font/google";
+import { HiBars3BottomRight, HiMiniBars3BottomRight } from "react-icons/hi2";
 
 const jost = Jost({ subsets: ["latin"], weight: "700" });
 
@@ -17,7 +18,7 @@ export default function Navbar() {
             BAYS
           </h1>
 
-          <div className="hidden md:flex absolute left-1/2 -translate-x-[75%] space-x-6 text-white font-light">
+          <div className="hidden lg:flex absolute left-1/2 -translate-x-[75%] space-x-6 text-white font-light">
             <a
               href=""
               className="hover:underline hover:underline-offset-4 decoration-[1px]"
@@ -37,7 +38,7 @@ export default function Navbar() {
               Pricing
             </a>
           </div>
-          <div className="ml-auto flex space-x-4 sm:w-auto justify-end pr-5">
+          <div className="ml-auto hidden lg:flex space-x-4 sm:w-auto justify-end pr-5">
             <a
               href="#_"
               className="relative block w-auto px-6 py-3 overflow-hidden text-base font-semibold text-center text-gray-800 rounded-lg bg-white"
@@ -51,6 +52,7 @@ export default function Navbar() {
               Sign Up
             </a>
           </div>
+          <HiMiniBars3BottomRight className="w-8 h-8 text-white cursor-pointer lg:hidden " />
         </div>
       </div>
     </div>
