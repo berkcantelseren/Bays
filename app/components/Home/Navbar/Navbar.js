@@ -8,12 +8,12 @@ import { CgClose } from "react-icons/cg";
 import { FaMoon } from "react-icons/fa";
 
 // Fonts
-const jost = Jost({ subsets: ["latin"], weight: "700" });
+const jost = Jost({ subsets: ["latin"], weight: "800" });
 
 export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
   return (
-    <div className="h-[12vh] z-[100] w-full top-0 sticky">
+    <div className="h-[12vh] z-[100] w-full">
       <div
         className="flex items-center h-full w-[95%] xl:w-[90%] mx-auto bg-[#1E1E1E] mt-5 rounded-xl relative
       "

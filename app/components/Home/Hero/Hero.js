@@ -9,7 +9,7 @@ const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function Hero() {
   return (
-    <div className=" flex flex-col w-[65%] justify-center mx-auto mt-15 h-[150h]">
+    <div className=" flex flex-col w-[60%] justify-center mx-auto mt-15 h-[150h]">
       {/* Text Section  */}
       <div className="text-center md:space-y-3">
         <h1
@@ -45,7 +45,7 @@ export default function Hero() {
         </div>
       </div>
       {/* Demo Example  */}
-      <div className="mt-15 hidden md:flex">
+      <div className="mt-15 hidden md:flex justify-center items-center">
         <Image src="/images/demo.svg" width={1056} height={578} />
       </div>
     </div>
