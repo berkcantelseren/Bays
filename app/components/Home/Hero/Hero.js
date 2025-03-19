@@ -39,14 +39,24 @@ export default function Hero() {
             href="#_"
             className="relative flex items-center justify-center gap-2 w-auto min-w-[165px] px-6 py-3 overflow-hidden text-base font-semibold text-center text-gray-800 rounded-lg bg-gray-50 whitespace-nowrap"
           >
-            <Image src="/images/arrow.svg" width={20} height={20} /> Watch a
-            Demo
+            <Image
+              src="/images/arrow.svg"
+              alt="arrow for demo"
+              width={20}
+              height={20}
+            />{" "}
+            Watch a Demo
           </a>
         </div>
       </div>
       {/* Demo Example  */}
       <div className="mt-15 hidden md:flex justify-center items-center">
-        <Image src="/images/demo.svg" width={1056} height={578} />
+        <Image
+          src="/images/demo.svg"
+          alt="demo image"
+          width={1056}
+          height={578}
+        />
       </div>
     </div>
   );

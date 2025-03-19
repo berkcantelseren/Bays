@@ -26,7 +26,12 @@ export default function Features() {
       </span>
       {/* Features Example  */}
       <div className="mt-15 hidden md:flex justify-center items-center border border-[#1E1E1E] p-5 rounded-xl">
-        <Image src="/images/features.svg" width={1056} height={578} />
+        <Image
+          src="/images/features.svg"
+          alt="features image"
+          width={1056}
+          height={578}
+        />
       </div>
     </div>
   );
