@@ -1,3 +1,4 @@
+import Features from "./Features/Features";
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
+      <Features />
     </div>
   );
 }
