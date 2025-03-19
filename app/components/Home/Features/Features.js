@@ -7,7 +7,7 @@ const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 
 export default function Features() {
   return (
-    <div className="flex flex-col w-[60%] justify-center items-center mx-auto mt-15 h-[150h]">
+    <div className="flex flex-col w-[60%] justify-center items-center mx-auto mt-15 h-[150h] bg-rose-200">
       <div className="text-center md:space-y-3">
         <div className="flex text-center mx-auto">
           <BoxText>Features</BoxText>
