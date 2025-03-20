@@ -9,7 +9,7 @@ const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function Benefits() {
   return (
-    <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-15 h-[150h]">
+    <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-15 h-full">
       <div className="text-center md:space-y-3">
         <div className="flex text-center mx-auto">
           <BoxText>Benefits Section</BoxText>
@@ -26,11 +26,11 @@ export default function Benefits() {
         Transformed the way we work
       </p>
       {/* 3 Grid Items */}
-      <div className="grid grid-cols-3 gap-10 mt-10 p-5 rounded-xl">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 mt-10 p-5 rounded-xl">
         {/* Grid Item 1 */}
-        <div className="flex flex-col items-center justify-center w-[408px] h-[434px] bg-[#1E1E1E] rounded-3xl">
+        <div className="flex flex-col items-center justify-center w-[300px] md:w-[408px] h-[434px] bg-[#1E1E1E] rounded-3xl">
           {/* Inner Grid: Icon */}
-          <div className="flex justify-center items-center p-16 pr-20 pl-20 gradient-custom rounded-3xl border border-[#3D3D3F]">
+          <div className="flex justify-center items-center p-8 pr-10 pl-10 md:p-16 md:pr-20 md:pl-20 gradient-custom rounded-3xl border border-[#3D3D3F]">
             <Image
               src="/images/reminder.svg"
               alt="reminder logo"
@@ -40,19 +40,19 @@ export default function Benefits() {
             />
           </div>
           {/* Inner Grid: Text */}
-          <h1 className="mt-4 text-white text-center mb-5 font-semibold text-2xl">
+          <h1 className="mt-4 text-white text-center mb-5 font-semibold text-xl md:text-2xl">
             Time Efficient
           </h1>
-          <p className="text-center text-[16px] text-[#ADADAD]">
+          <p className="text-center text-sm md:text-[16px] text-[#ADADAD]">
             Save up to 20 hours per week with{" "}
             <span className="block">automation</span>
           </p>
         </div>
 
         {/* Grid Item 2 */}
-        <div className="flex flex-col items-center justify-center w-[408px] h-[434px] bg-[#1E1E1E] rounded-3xl">
+        <div className="flex flex-col items-center justify-center w-[300px] md:w-[408px] h-[434px] bg-[#1E1E1E] rounded-3xl">
           {/* Inner Grid: Icon */}
-          <div className="flex justify-center items-center p-16 pr-20 pl-20 gradient-custom rounded-3xl border border-[#3D3D3F]">
+          <div className="flex justify-center items-center p-8 pr-10 pl-10 md:p-16 md:pr-20 md:pl-20 gradient-custom rounded-3xl border border-[#3D3D3F]">
             <Image
               src="/images/repeat.svg"
               alt="reminder logo"
@@ -62,18 +62,18 @@ export default function Benefits() {
             />
           </div>
           {/* Inner Grid: Text */}
-          <h1 className="mt-4 text-white text-center mb-5 font-semibold text-2xl">
+          <h1 className="mt-4 text-white text-center mb-5 font-semibold text-xl md:text-2xl">
             All-in-One
           </h1>
-          <p className="text-center text-[16px] text-[#ADADAD]">
+          <p className="text-center text-sm md:text-[16px] text-[#ADADAD]">
             Centralized platform for all your tools and{" "}
             <span className="block">data.</span>
           </p>
         </div>
         {/* Grid Item 3 */}
-        <div className="flex flex-col items-center justify-center w-[408px] h-[434px] bg-[#1E1E1E] rounded-3xl">
+        <div className="flex flex-col items-center justify-center w-[300px] md:w-[408px] h-[434px] bg-[#1E1E1E] rounded-3xl">
           {/* Inner Grid: Icon */}
-          <div className="flex justify-center items-center p-16 pr-20 pl-20 gradient-custom rounded-3xl border border-[#3D3D3F]">
+          <div className="flex justify-center items-center p-8 pr-10 pl-10 md:p-16 md:pr-20 md:pl-20 gradient-custom rounded-3xl border border-[#3D3D3F]">
             <Image
               src="/images/create.svg"
               alt="reminder logo"
@@ -83,10 +83,10 @@ export default function Benefits() {
             />
           </div>
           {/* Inner Grid: Text */}
-          <h1 className="mt-4 text-white text-center mb-5 font-semibold text-2xl">
+          <h1 className="mt-4 text-white text-center mb-5 font-semibold text-xl md:text-2xl">
             Easy Use
           </h1>
-          <p className="text-center text-[16px] text-[#ADADAD]">
+          <p className="text-center text-sm md:text-[16px] text-[#ADADAD]">
             User-friendly interface for quick{" "}
             <span className="block">onboarding</span>
           </p>
