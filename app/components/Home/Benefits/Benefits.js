@@ -26,13 +26,25 @@ export default function Benefits() {
         Transformed the way we work
       </p>
       {/* Features Example  */}
-      <div className="mt-15 hidden md:flex justify-center items-center border border-[#1E1E1E] p-5 rounded-xl">
-        <Image
+      <div className="grid gap-20 grid-cols-3 grid-rows-2 mt-15 justify-center items-center border border-[#1E1E1E] p-5 rounded-xl">
+        <div className="col-span-1 row-span-2 bg-rose-200">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quis.
+        </div>
+        <div className="col-span-1 row-span-2 bg-blue-300">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
+          vitae.
+        </div>
+        <div className="col-span-1 row-span-2 bg-green-300">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
+          vitae.
+        </div>
+
+        {/* <Image
           src="/images/benefits.svg"
           alt="benefits image"
           width={1056}
           height={578}
-        />
+        /> */}
       </div>
     </div>
   );
