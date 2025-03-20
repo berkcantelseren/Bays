@@ -3,3 +3,7 @@
 html {
   background: #101010;
 }
+
+.gradient-custom {
+  background: linear-gradient(to bottom, #232323 0%, #141414 100%);
+}
