@@ -4,6 +4,11 @@ html {
   background: #101010;
 }
 
+html::selection {
+  background: #1c54e3;
+  color: white;
+}
+
 .gradient-custom {
   background: linear-gradient(to bottom, #232323 0%, #141414 100%);
 }
