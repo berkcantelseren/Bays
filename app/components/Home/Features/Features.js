@@ -22,25 +22,21 @@ export default function Features() {
       name: "Collaboration Tools",
       description:
         "Enhance teamwork with powerful collaboration tools that streamline communication, facilitate document sharing, and enable real time feedback. Whether remote or in office, our platform ensures seamless interaction, helping teams stay aligned, boost productivity, and create a more collaborative work environment.",
-      image: "/images/taskdone.svg",
     },
     {
       name: "Analytics and Reporting",
       description:
         "Gain valuable insights into your team's performance with advanced analytics and reporting tools. Track key metrics, monitor project progress, and identify trends through real time data visualizations. Make informed decisions and optimize workflows to improve efficiency and business outcomes.",
-      image: "/images/taskdone.svg",
     },
     {
       name: "Custom Integrations",
       description:
         "Seamlessly connect your favorite tools and services with our customizable integrations. Automate workflows, synchronize data, and eliminate manual processes by integrating with the platforms your team already relies on. Enhance productivity and create a tailored experience that fits your business requirements perfectly.",
-      image: "/images/taskdone.svg",
     },
     {
       name: "Easy to Use",
       description:
         "Designed with simplicity and efficiency in mind, our user friendly interface ensures a smooth and intuitive experience for all users. Whether you're a beginner or an experienced professional, our platform provides a hassle free experience with minimal learning curve, allowing you to focus on what truly matters your work.",
-      image: "/images/taskdone.svg",
     },
   ];
 
@@ -50,25 +46,25 @@ export default function Features() {
   );
 
   return (
-    <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-30 h-[150h]">
+    <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-30 h-full">
       <div className="text-center md:space-y-3">
         <div className="flex text-center mx-auto">
           <BoxText>Features</BoxText>
         </div>
       </div>
       <h1
-        className={`text-white text-3xl sm:text-4xl md:text-[40px] font-semibold  ${jostMd.className}`}
+        className={`text-white text-3xl sm:text-4xl md:text-[40] font-semibold  ${jostMd.className}`}
       >
         Discover features
       </h1>
       <span
-        className={`block text-white text-3xl sm:text-4xl md:text-[40px] font-semibold ${jostMd.className}`}
+        className={`block text-white text-3xl sm:text-4xl md:text-[40] font-semibold ${jostMd.className}`}
       >
         that help your team achieve more
       </span>
       {/* Features Example  */}
       <div className="border border-[#383838]/50 rounded-3xl pr-10 pl-10 pb-10 mt-20">
-        <div className="grid grid-cols-2 lg:grid-cols-5 grid-rows-5 mt-15">
+        <div className="grid block grid-cols-2 lg:grid-cols-5 grid-rows-5 mt-15">
           {features.map((feature) => (
             <button
               key={feature.name}
@@ -84,8 +80,8 @@ export default function Features() {
           ))}
           <div className="col-span-3 row-span-7 bg-[#1E1E1E] rounded-3xl w-[700] h-[385] flex justify-center items-center border border-[#383838]">
             <Image
-              src={activeFeatureData?.image || "/images/default.svg"}
-              alt={`${activeFeatureData?.name} image`}
+              src="/images/taskdone.svg"
+              alt="taskdone image"
               width={358}
               height={358}
               className="select-none"
