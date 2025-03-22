@@ -9,7 +9,7 @@ const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function Benefits() {
   return (
-    <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-15 h-full">
+    <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-30 h-full">
       <div className="text-center md:space-y-3">
         <div className="flex text-center mx-auto">
           <BoxText>Benefits Section</BoxText>
