@@ -73,7 +73,7 @@ export default function Features() {
             <button
               key={feature.name}
               onClick={() => setActiveFeature(feature.name)}
-              className={`w-[230px] h-[50px] rounded-xl flex items-center justify-center font-semibold transition-colors ${
+              className={`w-[230px] h-[50px] rounded-xl flex cursor-pointer items-center justify-center font-semibold transition-colors ${
                 activeFeature === feature.name
                   ? "bg-white text-black"
                   : "bg-[#1E1E1E] text-[#ADADAD]"
@@ -92,7 +92,7 @@ export default function Features() {
             />
           </div>
           <div className="w-[489] h-[385] col-span-2 row-span-7 bg-[#1E1E1E] rounded-3xl items-center justify-center p-10">
-            <h1 className="flex justify-start font-semibold text-2xl text-white">
+            <h1 className="flex justify-start font-semibold text-2xl text-white ">
               {activeFeatureData?.name}
             </h1>
             <p className="text-[#ADADAD] text-[16px] justify-center flex mt-7">
