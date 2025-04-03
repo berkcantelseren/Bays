@@ -1,3 +1,5 @@
+import BoxText from "../../Helper/BoxText";
+
 export default function Testimonial() {
   return (
     <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-30 h-full">
