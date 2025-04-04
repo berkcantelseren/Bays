@@ -45,6 +45,18 @@ export default function Testimonial() {
           Capture testimonials with Feedspace
         </a>
       </div>
+      {/* Grid part  */}
+      <div className="grid grid-cols-3 grid-rows-3 gap-5 mt-15">
+        <div className="bg-rose-300 w-[345] h-[214]">1</div>
+        <div className="bg-white w-[345] h-[288]">2</div>
+        <div className="bg-black w-[353] h-[235]">3</div>
+        <div className="bg-black w-[345] h-[209]">4</div>
+        <div className="bg-black w-[345] h-[260]">5</div>
+        <div className="bg-black w-[353] h-[262]">6</div>
+        <div className="bg-black w-[345] h-[317]">7</div>
+        <div className="bg-black w-[345] h-[230]">8</div>
+        <div className="bg-black w-[353] h-[266]">9</div>
+      </div>
     </div>
   );
 }
