@@ -37,6 +37,11 @@ export default function Testimonial() {
         </a>{" "}
         to create a wall of love or testimonial widget for your website
       </p>
+      <div>
+        <button className="w-[326] h-[47] bg-[#F6E9E9]">
+          Capture testimonials with Feedspace
+        </button>
+      </div>
     </div>
   );
 }
