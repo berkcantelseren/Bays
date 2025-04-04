@@ -47,31 +47,31 @@ export default function Testimonial() {
       </div>
       {/* Grid part  */}
       <div className="grid grid-cols-3 auto-rows-[1px] gap-5 mt-15">
-        <div className="bg-white w-[345px] h-[210px] row-span-[11] rounded-xl">
+        <div className="bg-white w-[345px] h-[214px] row-span-[11] rounded-xl">
           1
         </div>
         <div className="bg-white w-[345px] h-[288px] row-span-[15] rounded-xl">
           2
         </div>
-        <div className="bg-white w-[353px] h-[235px] row-span-[13] rounded-xl">
+        <div className="bg-white w-[353px] h-[235px] row-span-[12] rounded-xl">
           3
         </div>
         <div className="bg-white w-[345px] h-[209px] row-span-[11] rounded-xl">
           4
         </div>
-        <div className="bg-white w-[345px] h-[260px] row-span-[15] rounded-xl">
+        <div className="bg-white w-[353px] h-[262px] row-span-[14] rounded-xl">
           5
         </div>
-        <div className="bg-white w-[353px] h-[262px] row-span-[14] rounded-xl">
+        <div className="bg-white w-[346px] h-[260px] row-span-[14] rounded-xl">
           6
         </div>
         <div className="bg-white w-[345px] h-[317px] row-span-[32] rounded-xl">
           7
         </div>
-        <div className="bg-white w-[345px] h-[230px] row-span-[23] rounded-xl">
+        <div className="bg-white w-[351px] h-[263px] row-span-[23] rounded-xl">
           8
         </div>
-        <div className="bg-white w-[353px] h-[266px] rounded-xl">9</div>
+        <div className="bg-white w-[345px] h-[230px] rounded-xl">9</div>
       </div>
     </div>
   );
