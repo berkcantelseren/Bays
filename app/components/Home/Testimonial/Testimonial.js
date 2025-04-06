@@ -57,9 +57,9 @@ export default function Testimonial() {
         <div className="bg-white w-[345px] h-[288px] row-span-[14] rounded-xl">
           {/* info for 2  */}2
         </div>
-        <div className="bg-rose-300 w-[353px] h-[235px] row-span-[12] rounded-xl justify-center flex items-center">
+        <div className="bg-rose-300 w-[353px] h-[235px] row-span-[12] rounded-xl flex flex-col justify-center items-center">
           {/* info for 3  */}
-          <div className="">
+          <div className="justify-center items-center">
             <Image
               src="images/mic.svg"
               alt="mic icon"
@@ -67,6 +67,18 @@ export default function Testimonial() {
               height={51}
               className="text-[#FFFFFF]"
             />
+          </div>
+          <div className="justify-center mt-5 block">
+            <Image
+              src="images/soundwave.svg"
+              alt="soundwave icon"
+              width={292}
+              height={37}
+              className="text-[#FFFFFF]"
+            />
+          </div>
+          <div className="bg-[#FFFFFF]/60 w-[337] h-[41] text-[#6B7280] rounded-lg mt-5 text-start justify-center align-center">
+            <p>December 12, 2024</p>
           </div>
         </div>
         <div className="bg-white w-[345px] h-[209px] row-span-[11] rounded-xl mt-1">
