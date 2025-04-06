@@ -12,3 +12,7 @@ html::selection {
 .gradient-custom {
   background: linear-gradient(to bottom, #232323 0%, #141414 100%);
 }
+
+.gradient-custom-2 {
+  background: linear-gradient(to right, #f8acff 0%, #696eff 100%);
+}

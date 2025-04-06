@@ -57,7 +57,7 @@ export default function Testimonial() {
         <div className="bg-white w-[345px] h-[288px] row-span-[14] rounded-xl">
           {/* info for 2  */}2
         </div>
-        <div className="bg-rose-300 w-[353px] h-[235px] row-span-[12] rounded-xl flex flex-col justify-between items-center py-2">
+        <div className="gradient-custom-2 w-[353px] h-[235px] row-span-[12] rounded-xl flex flex-col justify-between items-center py-2">
           {/* info for 3  */}
           <div className="justify-center items-center">
             <Image
