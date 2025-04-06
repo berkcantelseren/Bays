@@ -59,7 +59,7 @@ export default function Testimonial() {
         <div className="bg-white w-[345px] h-[209px] row-span-[11] rounded-xl">
           4
         </div>
-        <div className="bg-white w-[353px] h-[262px] row-span-[14] rounded-xl">
+        <div className="bg-white w-[353px] h-[262px] row-span-[13] rounded-xl">
           5
         </div>
         <div className="bg-white w-[346px] h-[260px] row-span-[13] rounded-xl">
@@ -68,10 +68,11 @@ export default function Testimonial() {
         <div className="bg-white w-[345px] h-[317px] row-span-[32] rounded-xl">
           7
         </div>
-        <div className="bg-white w-[351px] h-[263px] row-span-[23] rounded-xl">
+        <div className="bg-white w-[351px] h-[263px] row-span-[23] rounded-xl mt-3">
           8
         </div>
         <div className="bg-white w-[345px] h-[230px] rounded-xl mt-3">9</div>
+        {/* use mt for fixing and making it pixel perfect  */}
       </div>
     </div>
   );
