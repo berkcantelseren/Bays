@@ -48,30 +48,32 @@ export default function Testimonial() {
       {/* Grid part  */}
       <div className="grid grid-cols-3 auto-rows-[1px] gap-5 mt-15">
         <div className="bg-white w-[345px] h-[214px] row-span-[11] rounded-xl">
-          1
+          <div>
+            <h1>Shashi Ranjan</h1>
+          </div>
         </div>
-        <div className="bg-white w-[345px] h-[288px] row-span-[15] rounded-xl">
+        <div className="bg-white w-[345px] h-[288px] row-span-[14] rounded-xl">
           2
         </div>
         <div className="bg-white w-[353px] h-[235px] row-span-[12] rounded-xl">
           3
         </div>
-        <div className="bg-white w-[345px] h-[209px] row-span-[11] rounded-xl">
+        <div className="bg-white w-[345px] h-[209px] row-span-[11] rounded-xl mt-1">
           4
         </div>
-        <div className="bg-white w-[353px] h-[262px] row-span-[13] rounded-xl">
+        <div className="bg-white w-[353px] h-[262px] row-span-[13] rounded-xl mt-1">
           5
         </div>
-        <div className="bg-white w-[346px] h-[260px] row-span-[13] rounded-xl">
+        <div className="bg-white w-[346px] h-[260px] row-span-[13] rounded-xl mt-3">
           6
         </div>
-        <div className="bg-white w-[345px] h-[317px] row-span-[32] rounded-xl">
+        <div className="bg-white w-[345px] h-[317px] row-span-[32] rounded-xl mt-1">
           7
         </div>
         <div className="bg-white w-[351px] h-[263px] row-span-[23] rounded-xl mt-3">
           8
         </div>
-        <div className="bg-white w-[345px] h-[230px] rounded-xl mt-3">9</div>
+        <div className="bg-white w-[345px] h-[230px] rounded-xl mt-5">9</div>
         {/* use mt for fixing and making it pixel perfect  */}
       </div>
     </div>
