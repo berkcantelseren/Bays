@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
 
@@ -54,10 +55,19 @@ export default function Testimonial() {
           </div>
         </div>
         <div className="bg-white w-[345px] h-[288px] row-span-[14] rounded-xl">
-          2
+          {/* info for 2  */}2
         </div>
-        <div className="bg-white w-[353px] h-[235px] row-span-[12] rounded-xl">
-          3
+        <div className="bg-rose-300 w-[353px] h-[235px] row-span-[12] rounded-xl justify-center flex items-center">
+          {/* info for 3  */}
+          <div className="">
+            <Image
+              src="images/mic.svg"
+              alt="mic icon"
+              width={51}
+              height={51}
+              className="text-[#FFFFFF]"
+            />
+          </div>
         </div>
         <div className="bg-white w-[345px] h-[209px] row-span-[11] rounded-xl mt-1">
           4
