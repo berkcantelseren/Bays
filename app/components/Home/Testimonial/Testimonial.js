@@ -54,10 +54,10 @@ export default function Testimonial() {
             <h1>Shashi Ranjan</h1>
           </div>
         </div>
-        <div className="bg-white w-[345px] h-[288px] row-span-[14] rounded-xl">
+        <div className="bg-white w-[325px] md:w-[345px] h-[288px] row-span-[14] rounded-xl">
           {/* info for 2  */}2
         </div>
-        <div className="gradient-custom-2 w-[325px] md:w-[353px] h-[235px] row-span-[12] rounded-xl flex flex-col justify-between items-center py-2">
+        <div className="gradient-custom-2 w-[325px] md:w-[353px] h-[235px] row-span-[12] rounded-xl flex flex-col justify-between items-center py-2 mt-2 md:mt-0">
           {/* info for 3  */}
           <div className="justify-center items-center">
             <Image
@@ -81,19 +81,19 @@ export default function Testimonial() {
             <p>December 12, 2024</p>
           </div>
         </div>
-        <div className="bg-white w-[345px] h-[209px] row-span-[11] rounded-xl mt-1">
+        <div className="bg-white w-[325px] md:w-[345px] h-[209px] row-span-[11] rounded-xl mt-1">
           4
         </div>
-        <div className="bg-white w-[353px] h-[262px] row-span-[13] rounded-xl mt-1">
+        <div className="bg-white w-[325px] md:w-[353px] h-[262px] row-span-[13] rounded-xl mt-1">
           5
         </div>
-        <div className="bg-white w-[346px] h-[260px] row-span-[13] rounded-xl mt-3">
+        <div className="bg-white w-[325px] md:w-[346px] h-[260px] row-span-[13] rounded-xl mt-3">
           6
         </div>
-        <div className="bg-white w-[345px] h-[317px] row-span-[32] rounded-xl mt-1">
+        <div className="bg-white w-[325px] md:w-[345px] mt-5 md:mt-1 h-[317px] row-span-[16] md:row-span-[32] rounded-xl">
           7
         </div>
-        <div className="bg-white w-[351px] h-[263px] row-span-[23] rounded-xl mt-3">
+        <div className="bg-white w-[325px] md:w-[351px] h-[263px] row-span-[13] md:row-span-[23] rounded-xl mt-4 md:mt-3">
           8
         </div>
         <div className="gradient-custom-2 w-[325px] md:w-[345px] h-[230px] rounded-xl mt-5 flex flex-col justify-between items-center py-2">
