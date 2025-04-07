@@ -57,12 +57,12 @@ export default function Features() {
         </div>
       </div>
       <h1
-        className={`text-white text-3xl sm:text-4xl md:text-[40] font-semibold  ${jostMd.className}`}
+        className={`text-white text-3xl sm:text-4xl md:text-[40] font-semibold text-center  ${jostMd.className}`}
       >
         Discover features
       </h1>
       <span
-        className={`block text-white text-3xl sm:text-4xl md:text-[40] font-semibold ${jostMd.className}`}
+        className={`block text-white text-3xl sm:text-4xl md:text-[40] font-semibold text-center ${jostMd.className}`}
       >
         that help your team achieve more
       </span>

@@ -21,12 +21,12 @@ export default function Testimonial() {
         Trusted by Many
       </h1>
       <p
-        className={` text-sm md:text-[16px] text-[#F6E9E9]/60 mt-5 ${jostSm.className}`}
+        className={` text-sm md:text-[16px] text-center text-[#F6E9E9]/60 mt-5 ${jostSm.className}`}
       >
         Turn your visitors into loyal clients with heartfelt testimonials.
       </p>
       <p
-        className={` text-sm md:text-[16px] text-[#F6E9E9]/60 ${jostSm.className}`}
+        className={` text-sm md:text-[16px] text-center mt-3 md:mt-0 text-[#F6E9E9]/60 ${jostSm.className}`}
       >
         Use{" "}
         <a

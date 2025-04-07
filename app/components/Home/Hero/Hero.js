@@ -9,7 +9,7 @@ const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function Hero() {
   return (
-    <div className=" flex flex-col w-[60%] justify-center mx-auto mt-15 h-[150h]">
+    <div className=" flex flex-col w-[60%] justify-center mx-auto mt-15 h-full">
       {/* Text Section  */}
       <div className="text-center md:space-y-3">
         <h1
