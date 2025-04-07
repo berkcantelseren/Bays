@@ -96,7 +96,30 @@ export default function Testimonial() {
         <div className="bg-white w-[351px] h-[263px] row-span-[23] rounded-xl mt-3">
           8
         </div>
-        <div className="bg-white w-[345px] h-[230px] rounded-xl mt-5">9</div>
+        <div className="gradient-custom-2 w-[325px] md:w-[345px] h-[230px] rounded-xl mt-5 flex flex-col justify-between items-center py-2">
+          {/* info for 9  */}
+          <div className="justify-center items-center">
+            <Image
+              src="images/mic.svg"
+              alt="mic icon"
+              width={51}
+              height={51}
+              className="text-[#FFFFFF] mt-6"
+            />
+          </div>
+          <div className="justify-center mt-5 block">
+            <Image
+              src="images/soundwave.svg"
+              alt="soundwave icon"
+              width={292}
+              height={37}
+              className="text-[#FFFFFF]"
+            />
+          </div>
+          <div className="bg-white/60 w-[315px] md:w-[337px] h-[41px] text-[#6B7280] rounded-lg mt-5 flex p-4 items-center ">
+            <p>December 12, 2024</p>
+          </div>
+        </div>
         {/* use mt for fixing and making it pixel perfect  */}
       </div>
     </div>
