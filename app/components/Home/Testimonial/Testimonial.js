@@ -48,7 +48,7 @@ export default function Testimonial() {
       </div>
       {/* Grid part  */}
       <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[1px] gap-5 mt-15">
-        <div className="bg-white w-[345px] h-[214px] row-span-[11] rounded-xl">
+        <div className="bg-white w-[325px] md:w-[345px] h-[214px] row-span-[11] rounded-xl">
           {/* info for 1  */}
           <div>
             <h1>Shashi Ranjan</h1>
@@ -57,7 +57,7 @@ export default function Testimonial() {
         <div className="bg-white w-[345px] h-[288px] row-span-[14] rounded-xl">
           {/* info for 2  */}2
         </div>
-        <div className="gradient-custom-2 w-[353px] h-[235px] row-span-[12] rounded-xl flex flex-col justify-between items-center py-2">
+        <div className="gradient-custom-2 w-[325px] md:w-[353px] h-[235px] row-span-[12] rounded-xl flex flex-col justify-between items-center py-2">
           {/* info for 3  */}
           <div className="justify-center items-center">
             <Image
@@ -77,7 +77,7 @@ export default function Testimonial() {
               className="text-[#FFFFFF]"
             />
           </div>
-          <div className="bg-white/60 w-[337px] h-[41px] text-[#6B7280] rounded-lg mt-5 flex p-4 items-center ">
+          <div className="bg-white/60 w-[315px] md:w-[337px] h-[41px] text-[#6B7280] rounded-lg mt-5 flex p-4 items-center ">
             <p>December 12, 2024</p>
           </div>
         </div>
