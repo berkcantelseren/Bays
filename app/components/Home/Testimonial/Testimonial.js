@@ -47,7 +47,7 @@ export default function Testimonial() {
         </a>
       </div>
       {/* Grid part  */}
-      <div className="grid grid-cols-3 auto-rows-[1px] gap-5 mt-15">
+      <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[1px] gap-5 mt-15">
         <div className="bg-white w-[345px] h-[214px] row-span-[11] rounded-xl">
           {/* info for 1  */}
           <div>

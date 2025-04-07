@@ -67,13 +67,13 @@ export default function Features() {
         that help your team achieve more
       </span>
       {/* Features Example  */}
-      <div className="border border-[#383838]/50 rounded-3xl pr-10 pl-10 pb-10 mt-20">
-        <div className="grid grid-cols-2 lg:grid-cols-5 grid-rows-5 mt-15">
+      <div className="border border-[#383838]/50 w-[375px] md:w-auto rounded-3xl pr-10 pl-10 pb-10 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-5 mt-15 md:ml-0">
           {features.map((feature) => (
             <button
               key={feature.name}
               onClick={() => setActiveFeature(feature.name)}
-              className={`w-[230px] h-[50px] rounded-xl flex cursor-pointer items-center justify-center font-semibold transition-colors ${
+              className={`w-[150px] md:w-[230px] h-[50px] rounded-xl flex cursor-pointer items-center justify-center font-semibold transition-colors ${
                 activeFeature === feature.name
                   ? "bg-white text-black"
                   : "bg-[#1E1E1E] text-[#ADADAD]"
@@ -82,16 +82,16 @@ export default function Features() {
               {feature.name}
             </button>
           ))}
-          <div className="col-span-3 row-span-7 bg-[#1E1E1E] rounded-3xl w-[700] h-[385] flex justify-center items-center border border-[#383838]">
+          <div className="col-span-3 row-span-7 bg-[#1E1E1E] rounded-3xl w-[275px] md:w-[700] h-[385] flex justify-center items-center border border-[#383838] mb-10 md:mb-0  ">
             <Image
               src={activeFeatureData?.image || "/images/taskdone.svg"}
               alt={`${activeFeatureData?.name} image`}
               width={350}
               height={350}
-              className="select-none"
+              className="select-none w-[275] md:w-[350]"
             />
           </div>
-          <div className="w-[489] h-[385] col-span-2 row-span-7 bg-[#1E1E1E] rounded-3xl items-center justify-center p-10">
+          <div className="w-[275px] md:w-[489] h-[675] md:h-[385] ml-1 md:ml-0 col-span-2 row-span-7 bg-[#1E1E1E] rounded-3xl items-center justify-center p-10">
             <h1 className="flex justify-start font-semibold text-2xl text-white ">
               {activeFeatureData?.name}
             </h1>
