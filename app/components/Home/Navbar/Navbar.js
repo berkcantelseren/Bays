@@ -34,8 +34,8 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href=""
-              className="hover:underline hover:underline-offset-4 decoration-[1px]"
+              href="#features"
+              className="hover:underline hover:underline-offset-4 decoration-[1px] transition"
             >
               Featuring
             </a>

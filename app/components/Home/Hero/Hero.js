@@ -1,6 +1,5 @@
 import { Jost } from "next/font/google";
 import Image from "next/image";
-import { RxTriangleRight } from "react-icons/rx";
 
 // Fonts
 const jost = Jost({ subsets: ["latin"], weight: "800" });

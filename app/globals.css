@@ -2,6 +2,7 @@
 
 html {
   background: #101010;
+  scroll-behavior: smooth;
 }
 
 html::selection {
