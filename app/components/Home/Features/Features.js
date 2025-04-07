@@ -68,39 +68,53 @@ export default function Features() {
       </span>
       {/* Features Example  */}
       <div className="border border-[#383838]/50 w-[375px] md:w-auto rounded-3xl pr-10 pl-10 pb-10 mt-20">
-        <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-5 mt-15 md:ml-0">
-          {features.map((feature) => (
-            <button
+        {/* Buttons section */}
+        <div className="lg:flex lg:flex-wrap gap-4 w-full lg:justify-start justify-center grid grid-cols-2 md:w-fit mx-auto mt-10">
+          {features.map((feature, index) => (
+            <div
               key={feature.name}
-              onClick={() => setActiveFeature(feature.name)}
-              className={`w-[150px] md:w-[230px] h-[50px] rounded-xl flex cursor-pointer items-center justify-center font-semibold transition-colors ${
-                activeFeature === feature.name
-                  ? "bg-white text-black"
-                  : "bg-[#1E1E1E] text-[#ADADAD]"
+              className={`${
+                index === 4
+                  ? "col-span-2 flex justify-center lg:col-span-1 lg:justify-start"
+                  : ""
               }`}
             >
-              {feature.name}
-            </button>
+              <button
+                onClick={() => setActiveFeature(feature.name)}
+                className={`w-[150px] md:w-[230px] h-[50px] rounded-xl flex cursor-pointer items-center justify-center font-semibold transition-colors ${
+                  activeFeature === feature.name
+                    ? "bg-white text-black"
+                    : "bg-[#1E1E1E] text-[#ADADAD]"
+                }`}
+              >
+                {feature.name}
+              </button>
+            </div>
           ))}
-          <div className="col-span-3 row-span-7 bg-[#1E1E1E] rounded-3xl w-[275px] md:w-[700] h-[385] flex justify-center items-center border border-[#383838] mb-10 md:mb-0  ">
+        </div>
+
+        {/* Content section */}
+        <div className="flex flex-col md:flex-row gap-6 mt-10">
+          <div className="bg-[#1E1E1E] rounded-3xl w-full md:w-[700px] h-[385px] flex justify-center items-center border border-[#383838]">
             <Image
               src={activeFeatureData?.image || "/images/taskdone.svg"}
               alt={`${activeFeatureData?.name} image`}
               width={350}
               height={350}
-              className="select-none w-[275] md:w-[350]"
+              className="select-none"
             />
           </div>
-          <div className="w-[275px] md:w-[489] h-[675] md:h-[385] ml-1 md:ml-0 col-span-2 row-span-7 bg-[#1E1E1E] rounded-3xl items-center justify-center p-10">
-            <h1 className="flex justify-start font-semibold text-2xl text-white ">
+
+          <div className="bg-[#1E1E1E] rounded-3xl w-full md:w-[489px] h-auto md:h-[385px] p-10 flex flex-col justify-between">
+            <h1 className="font-semibold text-2xl text-white">
               {activeFeatureData?.name}
             </h1>
-            <p className="text-[#ADADAD] text-[16px] justify-center flex mt-7">
+            <p className="text-[#ADADAD] text-[16px] mt-7">
               {activeFeatureData?.description}
             </p>
             <button
               type="button"
-              className="text-[#1C54E3] mt-20 text-[16px] rounded-lg text-center inline-flex items-center cursor-pointer font-semibold"
+              className="text-[#1C54E3] mt-10 text-[16px] rounded-lg inline-flex items-center font-semibold cursor-pointer"
             >
               Learn More
               <Image
