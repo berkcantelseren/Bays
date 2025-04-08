@@ -130,10 +130,10 @@ export default function Testimonial() {
           <div className="bg-white w-[325px] md:w-[345px] h-[214px] row-span-[11] rounded-xl">
             {/* info for 5  */}
             <div className="relative">
-              {/* Google Logo */}
+              {/* Udemy Logo */}
               <Image
-                src="/images/google-logo.svg"
-                alt="Google logo"
+                src="/images/udemy.svg"
+                alt="Udemy Logo"
                 width={17}
                 height={17}
                 className="absolute top-7 right-5"
@@ -142,37 +142,60 @@ export default function Testimonial() {
               {/* Profile content */}
               <div className="flex py-5 px-5">
                 <Image
-                  src="images/profile1.svg"
+                  src="images/profile2.svg"
                   alt="profile picture of someone"
                   width={48}
                   height={48}
                 />
                 <div className="ml-4">
-                  <h1 className="text-[16px] font-medium">Shashi Ranjan</h1>
-                  <p className="text-[12px] text-[#6B7280]">August 20, 2024</p>
+                  <h1 className="text-[16px] font-medium">Olufadeke Okoba</h1>
+                  <p className="text-[12px] text-[#6B7280]">January 12, 2024</p>
                 </div>
               </div>
             </div>
             {/* rating part  */}
             <div className="flex gap-2 ml-6">
-              {Array.from({ length: 5 }).map((_, index) => (
-                <Image
-                  key={index}
-                  src="images/star.svg"
-                  alt="star icon"
-                  height={22}
-                  width={22}
-                />
-              ))}
+              <Image
+                src="images/star.svg"
+                width={22}
+                height={22}
+                alt="full star"
+              />
+              <Image
+                src="images/star.svg"
+                width={22}
+                height={22}
+                alt="full star"
+              />
+              <Image
+                src="images/star.svg"
+                width={22}
+                height={22}
+                alt="full star"
+              />
+              <Image
+                src="images/star.svg"
+                width={22}
+                height={22}
+                alt="full star"
+              />
+              <Image
+                src="images/star-half.svg"
+                width={22}
+                height={22}
+                alt="half star"
+              />
             </div>
             <div
               className={`font-light text-[16px] ml-6 mt-3 ${interMd.className}`}
             >
-              Very nice friendly staff and amazing{" "}
+              I am relatively new to Customer Service.{" "}
+              <span className="block">The course is enlightening, easy to</span>
+              <span className="block">follow with proper visual tools,</span>
               <span className="block">
-                food I have never experienced before
+                especially the last course. Really worth
               </span>
-              <span className="block">in Hyderabad...</span>
+              <span className="block">it.</span>
             </div>
           </div>
         </div>
