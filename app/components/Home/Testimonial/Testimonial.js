@@ -127,7 +127,54 @@ export default function Testimonial() {
           4
         </div>
         <div className="bg-white w-[325px] md:w-[353px] h-[262px] row-span-[13] rounded-xl mt-1">
-          5
+          <div className="bg-white w-[325px] md:w-[345px] h-[214px] row-span-[11] rounded-xl">
+            {/* info for 5  */}
+            <div className="relative">
+              {/* Google Logo */}
+              <Image
+                src="/images/google-logo.svg"
+                alt="Google logo"
+                width={17}
+                height={17}
+                className="absolute top-7 right-5"
+              />
+
+              {/* Profile content */}
+              <div className="flex py-5 px-5">
+                <Image
+                  src="images/profile1.svg"
+                  alt="profile picture of someone"
+                  width={48}
+                  height={48}
+                />
+                <div className="ml-4">
+                  <h1 className="text-[16px] font-medium">Shashi Ranjan</h1>
+                  <p className="text-[12px] text-[#6B7280]">August 20, 2024</p>
+                </div>
+              </div>
+            </div>
+            {/* rating part  */}
+            <div className="flex gap-2 ml-6">
+              {Array.from({ length: 5 }).map((_, index) => (
+                <Image
+                  key={index}
+                  src="images/star.svg"
+                  alt="star icon"
+                  height={22}
+                  width={22}
+                />
+              ))}
+            </div>
+            <div
+              className={`font-light text-[16px] ml-6 mt-3 ${interMd.className}`}
+            >
+              Very nice friendly staff and amazing{" "}
+              <span className="block">
+                food I have never experienced before
+              </span>
+              <span className="block">in Hyderabad...</span>
+            </div>
+          </div>
         </div>
         <div className="bg-white w-[325px] md:w-[346px] h-[260px] row-span-[13] rounded-xl mt-3">
           6
