@@ -50,17 +50,28 @@ export default function Testimonial() {
       <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[1px] gap-5 mt-15">
         <div className="bg-white w-[325px] md:w-[345px] h-[214px] row-span-[11] rounded-xl">
           {/* info for 1  */}
-          <div className="flex py-5 px-5">
+          <div className="relative">
+            {/* Google Logo */}
             <Image
-              src="images/profile1.svg"
-              alt="profile picture of someone"
-              width={48}
-              height={48}
-              className=""
+              src="/images/google-logo.svg"
+              alt="Google logo"
+              width={17}
+              height={17}
+              className="absolute top-7 right-5"
             />
-            <div className="ml-4">
-              <h1 className="text-[16px] font-medium">Shashi Ranjan</h1>
-              <p className="text-[12px] text-[#6B7280]">August 20, 2024</p>
+
+            {/* Profile content */}
+            <div className="flex py-5 px-5">
+              <Image
+                src="images/profile1.svg"
+                alt="profile picture of someone"
+                width={48}
+                height={48}
+              />
+              <div className="ml-4">
+                <h1 className="text-[16px] font-medium">Shashi Ranjan</h1>
+                <p className="text-[12px] text-[#6B7280]">August 20, 2024</p>
+              </div>
             </div>
           </div>
         </div>
