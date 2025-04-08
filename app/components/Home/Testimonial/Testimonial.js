@@ -1,11 +1,13 @@
 import Image from "next/image";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
+import { Inter } from "next/font/google";
 
 // Fonts
 
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 const jostSm = Jost({ subsets: ["latin"], weight: "300" });
+const interMd = Inter({ subsets: ["latin"], weight: "300" });
 
 export default function Testimonial() {
   return (
@@ -73,6 +75,25 @@ export default function Testimonial() {
                 <p className="text-[12px] text-[#6B7280]">August 20, 2024</p>
               </div>
             </div>
+          </div>
+          {/* rating part  */}
+          <div className="flex gap-2 ml-6">
+            {Array.from({ length: 5 }).map((_, index) => (
+              <Image
+                key={index}
+                src="images/star.svg"
+                alt="star icon"
+                height={22}
+                width={22}
+              />
+            ))}
+          </div>
+          <div
+            className={`font-light text-[16px] ml-6 mt-3 ${interMd.className}`}
+          >
+            Very nice friendly staff and amazing{" "}
+            <span className="block">food I have never experienced before</span>
+            <span className="block">in Hyderabad...</span>
           </div>
         </div>
         <div className="bg-white w-[325px] md:w-[345px] h-[288px] row-span-[14] rounded-xl">
