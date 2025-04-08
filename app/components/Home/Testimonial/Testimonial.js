@@ -70,7 +70,7 @@ export default function Testimonial() {
                 width={48}
                 height={48}
               />
-              <div className="ml-4">
+              <div className="ml-3">
                 <h1 className="text-[16px] font-medium">Shashi Ranjan</h1>
                 <p className="text-[12px] text-[#6B7280]">August 20, 2024</p>
               </div>
@@ -147,7 +147,7 @@ export default function Testimonial() {
                   width={48}
                   height={48}
                 />
-                <div className="ml-4">
+                <div className="ml-3">
                   <h1 className="text-[16px] font-medium">Olufadeke Okoba</h1>
                   <p className="text-[12px] text-[#6B7280]">January 12, 2024</p>
                 </div>
@@ -203,7 +203,81 @@ export default function Testimonial() {
           6
         </div>
         <div className="bg-white w-[325px] md:w-[345px] mt-5 md:mt-1 h-[317px] row-span-[16] md:row-span-[32] rounded-xl">
-          7
+          <div className="bg-white w-[325px] md:w-[345px] h-[214px] row-span-[11] rounded-xl">
+            {/* info for 7  */}
+            <div className="relative">
+              {/* Appsumo Logo */}
+              <Image
+                src="/images/appsumo.svg"
+                alt="Appsumo Logo"
+                width={17}
+                height={17}
+                className="absolute top-7 right-5"
+              />
+
+              {/* Profile content */}
+              <div className="flex py-5 px-5">
+                <Image
+                  src="images/profile3.svg"
+                  alt="profile picture of someone"
+                  width={48}
+                  height={48}
+                />
+                <div className="ml-3">
+                  <h1 className="text-[16px] font-medium">wpguide</h1>
+                  <p className="text-[12px] text-[#6B7280]">
+                    September 19, 2024
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* rating part  */}
+            <div className="flex gap-2 ml-6">
+              <Image
+                src="images/appsumo.svg"
+                width={22}
+                height={22}
+                alt="appsumo logo"
+              />
+              <Image
+                src="images/appsumo.svg"
+                width={22}
+                height={22}
+                alt="appsumo logo"
+              />
+              <Image
+                src="images/appsumo.svg"
+                width={22}
+                height={22}
+                alt="appsumo logo"
+              />
+              <Image
+                src="images/appsumo.svg"
+                width={22}
+                height={22}
+                alt="appsumo logo"
+              />
+              <Image
+                src="images/appsumo.svg"
+                width={22}
+                height={22}
+                alt="appsumo logo"
+              />
+            </div>
+            <div
+              className={`font-light text-[16px] ml-6 mt-3 ${interMd.className}`}
+            >
+              <h1 className="font-bold mb-3">Amazing feed tool</h1>
+              Feedspace is an exceptional tool, easy{" "}
+              <span className="block">
+                to use, with a great design and fast
+              </span>
+              <span className="block">upload speeds for videos and audio.</span>
+              <span className="block">On top of that, they have an</span>
+              <span className="block">outstanding team that's quick to</span>
+              <span className="block">respond. I highly recommend it!</span>
+            </div>
+          </div>
         </div>
         <div className="bg-white w-[325px] md:w-[351px] h-[263px] row-span-[13] md:row-span-[23] rounded-xl mt-4 md:mt-3">
           8
