@@ -266,32 +266,33 @@ export default function Testimonial() {
             <span className="block">it.</span>
           </div>
         </div>
-        <div className=" w-[325px] md:w-[346px] h-[260px] row-span-[13] rounded-xl mt-3">
-          {/* info for 6  */}
-          <div className="relative">
+        <div className="relative w-[325px] md:w-[346px] h-[260px] row-span-[13] rounded-xl mt-3 overflow-hidden">
+          {/* Image */}
+          <Image
+            src="/images/video1.svg"
+            alt="video of yuri drabik image"
+            fill
+            className="object-cover rounded-xl border border-white"
+          />
+
+          {/* Gradient Overlay */}
+          <div className="absolute inset-[0.2px] inset-x-0.5 gradient-custom-3 rounded-xl overflow-auto"></div>
+
+          {/* Profile Content */}
+          <div className="flex py-5 px-5 absolute bottom-0">
             <Image
-              src="images/video1.svg"
-              alt="video of yuri drabik image"
-              width={0}
-              height={0}
-              className="object-cover w-fit h-fit rounded-xl border border-white gradient-custom-3"
+              src="/images/profile5.svg"
+              alt="profile picture of yuri drabik"
+              width={53}
+              height={53}
             />
-            {/* Profile content */}
-            <div className="flex py-5 px-5 absolute top-40">
-              <Image
-                src="images/profile5.svg"
-                alt="profile picture of yuri drabik"
-                width={53}
-                height={53}
-              />
-              <div className="ml-3">
-                <h1
-                  className={`text-[18px] font-medium text-[#FFFFFF] ${interMd.className}`}
-                >
-                  Yuri Drabik
-                </h1>
-                <p className="text-[12px] text-[#CBD5E1]">February 05, 2023</p>
-              </div>
+            <div className="ml-3">
+              <h1
+                className={`text-[18px] font-medium text-[#FFFFFF] ${interMd.className}`}
+              >
+                Yuri Drabik
+              </h1>
+              <p className="text-[12px] text-[#CBD5E1]">February 05, 2023</p>
             </div>
           </div>
         </div>
