@@ -101,7 +101,7 @@ export default function Testimonial() {
           <div className="relative">
             {/* Trustpilot Logo */}
             <Image
-              src="/images/appsumo.svg"
+              src="/images/trustpilot.svg"
               alt="Appsumo Logo"
               width={17}
               height={17}
@@ -111,7 +111,7 @@ export default function Testimonial() {
             {/* Profile content */}
             <div className="flex py-5 px-5">
               <Image
-                src="images/profile3.svg"
+                src="images/profile4.svg"
                 alt="profile picture of someone"
                 width={48}
                 height={48}
@@ -128,31 +128,31 @@ export default function Testimonial() {
               src="images/star-green.svg"
               width={22}
               height={22}
-              alt="appsumo logo"
+              alt="trustpilot logo"
             />
             <Image
               src="images/star-green.svg"
               width={22}
               height={22}
-              alt="appsumo logo"
+              alt="trustpilot logo"
             />
             <Image
               src="images/star-green.svg"
               width={22}
               height={22}
-              alt="appsumo logo"
+              alt="trustpilot logo"
             />
             <Image
               src="images/star-green.svg"
               width={22}
               height={22}
-              alt="appsumo logo"
+              alt="trustpilot logo"
             />
             <Image
               src="images/star-green.svg"
               width={22}
               height={22}
-              alt="appsumo logo"
+              alt="trustpilot logo"
             />
           </div>
           <div
