@@ -207,8 +207,8 @@ export default function Testimonial() {
             {/* Profile content */}
             <div className="flex py-5 px-5">
               <Image
-                src="images/profile4.svg"
-                alt="profile picture of someone"
+                src="images/profile7.svg"
+                alt="profile picture of Thomas"
                 width={48}
                 height={48}
               />
