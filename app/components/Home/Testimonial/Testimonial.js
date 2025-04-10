@@ -220,48 +220,20 @@ export default function Testimonial() {
           </div>
           {/* rating part  */}
           <div className="flex gap-2 ml-6">
-            <Image
-              src="images/star-green.svg"
-              width={22}
-              height={22}
-              alt="trustpilot logo"
-            />
-            <Image
-              src="images/star-green.svg"
-              width={22}
-              height={22}
-              alt="trustpilot logo"
-            />
-            <Image
-              src="images/star-green.svg"
-              width={22}
-              height={22}
-              alt="trustpilot logo"
-            />
-            <Image
-              src="images/star-green.svg"
-              width={22}
-              height={22}
-              alt="trustpilot logo"
-            />
-            <Image
-              src="images/star-green.svg"
-              width={22}
-              height={22}
-              alt="trustpilot logo"
-            />
+            <Image src="images/10.svg" width={32} height={32} alt="10 logo" />
           </div>
-          <div
-            className={`font-light text-[16px] ml-6 mt-3 ${interMd.className}`}
-          >
-            <h1 className="font-bold mb-3">Excellent quality</h1>
-            Quick delivery, unfortunately one{" "}
-            <span className="block">wrong item. Was sent immediatly after</span>
-            <span className="block">my complaint and arrived only 2 days</span>
-            <span className="block">
-              later. Great service! And as always high
-            </span>
-            <span className="block">quality clothes.</span>
+          <div className={`text-[16px] ml-6 mt-3 ${interMd.className}`}>
+            <span className="block font-black">Exceptional</span>
+          </div>
+          <div className="flex">
+            <Image
+              src="images/smile.svg"
+              alt="smile icon"
+              height={20}
+              width={20}
+              className="ml-5 mt-3"
+            />
+            <p className="mt-3 ml-2">All okay</p>
           </div>
         </div>
         <div className="bg-white w-[325px] md:w-[353px] h-[262px] row-span-[13] rounded-xl mt-1">
