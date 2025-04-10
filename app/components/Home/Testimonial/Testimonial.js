@@ -317,7 +317,7 @@ export default function Testimonial() {
           />
 
           {/* Gradient Overlay */}
-          <div className="absolute inset-[0.2px] inset-x-0.5 gradient-custom-3 rounded-xl overflow-auto"></div>
+          <div className="absolute inset-[0.1px] gradient-custom-3 rounded-xl overflow-auto"></div>
 
           {/* Profile Content */}
           <div className="flex py-5 px-5 absolute bottom-0">
@@ -408,7 +408,7 @@ export default function Testimonial() {
             <span className="block">respond. I highly recommend it!</span>
           </div>
         </div>
-        <div className="bg-white w-[325px] md:w-[351px] h-[263px] row-span-[13] md:row-span-[23] rounded-xl mt-4 md:mt-3 relative  border-1 border-white">
+        <div className="bg-white w-[325px] md:w-[351px] h-[263px] row-span-[13] md:row-span-[23] rounded-xl mt-4 md:mt-3 relative  border border-white">
           {/* Info for 8 */}
           <Image
             src="/images/video2.svg"
@@ -418,7 +418,7 @@ export default function Testimonial() {
           />
 
           {/* Gradient Overlay */}
-          <div className="absolute inset-[0.2px] inset-x-0.5 gradient-custom-3 rounded-xl "></div>
+          <div className="absolute inset-[0.1px] gradient-custom-3 rounded-xl "></div>
 
           {/* Profile Content */}
           <div className="flex py-5 px-5 absolute bottom-0">
