@@ -193,7 +193,76 @@ export default function Testimonial() {
           </div>
         </div>
         <div className="bg-white w-[325px] md:w-[345px] h-[209px] row-span-[11] rounded-xl mt-1">
-          4
+          {/* info for 4  */}
+          <div className="relative">
+            {/* Bookings Logo */}
+            <Image
+              src="/images/bookings.svg"
+              alt="Bookings Logo"
+              width={17}
+              height={17}
+              className="absolute top-7 right-5"
+            />
+
+            {/* Profile content */}
+            <div className="flex py-5 px-5">
+              <Image
+                src="images/profile4.svg"
+                alt="profile picture of someone"
+                width={48}
+                height={48}
+              />
+              <div className="ml-3">
+                <h1 className="text-[16px] font-medium">Thomas</h1>
+                <p className="text-[12px] text-[#6B7280]">November 05, 2024</p>
+              </div>
+            </div>
+          </div>
+          {/* rating part  */}
+          <div className="flex gap-2 ml-6">
+            <Image
+              src="images/star-green.svg"
+              width={22}
+              height={22}
+              alt="trustpilot logo"
+            />
+            <Image
+              src="images/star-green.svg"
+              width={22}
+              height={22}
+              alt="trustpilot logo"
+            />
+            <Image
+              src="images/star-green.svg"
+              width={22}
+              height={22}
+              alt="trustpilot logo"
+            />
+            <Image
+              src="images/star-green.svg"
+              width={22}
+              height={22}
+              alt="trustpilot logo"
+            />
+            <Image
+              src="images/star-green.svg"
+              width={22}
+              height={22}
+              alt="trustpilot logo"
+            />
+          </div>
+          <div
+            className={`font-light text-[16px] ml-6 mt-3 ${interMd.className}`}
+          >
+            <h1 className="font-bold mb-3">Excellent quality</h1>
+            Quick delivery, unfortunately one{" "}
+            <span className="block">wrong item. Was sent immediatly after</span>
+            <span className="block">my complaint and arrived only 2 days</span>
+            <span className="block">
+              later. Great service! And as always high
+            </span>
+            <span className="block">quality clothes.</span>
+          </div>
         </div>
         <div className="bg-white w-[325px] md:w-[353px] h-[262px] row-span-[13] rounded-xl mt-1">
           {/* info for 5  */}
