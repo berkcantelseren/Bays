@@ -307,13 +307,13 @@ export default function Testimonial() {
             <span className="block">it.</span>
           </div>
         </div>
-        <div className="relative w-[325px] md:w-[346px] h-[260px] row-span-[13] rounded-xl mt-3 overflow-hidden">
+        <div className="relative w-[325px] md:w-[346px] h-[260px] row-span-[13] rounded-xl mt-3 overflow-hidden border border-white">
           {/* Info for 6 */}
           <Image
             src="/images/video1.svg"
             alt="video of yuri drabik image"
             fill
-            className="object-cover rounded-xl border border-white"
+            className="object-cover rounded-xl"
           />
 
           {/* Gradient Overlay */}
