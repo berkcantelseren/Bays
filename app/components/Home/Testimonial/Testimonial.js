@@ -267,7 +267,7 @@ export default function Testimonial() {
           </div>
         </div>
         <div className="relative w-[325px] md:w-[346px] h-[260px] row-span-[13] rounded-xl mt-3 overflow-hidden">
-          {/* Image */}
+          {/* Info for 6 */}
           <Image
             src="/images/video1.svg"
             alt="video of yuri drabik image"
@@ -367,8 +367,35 @@ export default function Testimonial() {
             <span className="block">respond. I highly recommend it!</span>
           </div>
         </div>
-        <div className="bg-white w-[325px] md:w-[351px] h-[263px] row-span-[13] md:row-span-[23] rounded-xl mt-4 md:mt-3">
-          8
+        <div className="bg-white w-[325px] md:w-[351px] h-[263px] row-span-[13] md:row-span-[23] rounded-xl mt-4 md:mt-3 relative  border-1 border-white">
+          {/* Info for 8 */}
+          <Image
+            src="/images/video2.svg"
+            alt="video of Hemal Kalariya"
+            fill
+            className="object-cover rounded-xl"
+          />
+
+          {/* Gradient Overlay */}
+          <div className="absolute inset-[0.2px] inset-x-0.5 gradient-custom-3 rounded-xl "></div>
+
+          {/* Profile Content */}
+          <div className="flex py-5 px-5 absolute bottom-0">
+            <Image
+              src="/images/profile6.svg"
+              alt="profile picture Hemal Kalariya"
+              width={53}
+              height={53}
+            />
+            <div className="ml-3">
+              <h1
+                className={`text-[18px] font-medium text-[#FFFFFF] ${interMd.className}`}
+              >
+                Hemal Kalariya
+              </h1>
+              <p className="text-[12px] text-[#CBD5E1]">September 12, 2023</p>
+            </div>
+          </div>
         </div>
         <div className="gradient-custom-2 w-[325px] md:w-[345px] h-[230px] rounded-xl mt-5 flex flex-col justify-between items-center py-2">
           {/* info for 9  */}
@@ -394,7 +421,6 @@ export default function Testimonial() {
             <p>December 12, 2024</p>
           </div>
         </div>
-        {/* use mt for fixing and making it pixel perfect  */}
       </div>
     </div>
   );
