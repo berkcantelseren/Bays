@@ -47,7 +47,7 @@ export default function HowItWorks() {
           </div>
           {/* Button  */}
           <div>
-            <button className="bg-[#F6E9E9] w-[145] h-[47] font-semibold text-[16px] rounded-xl mt-7 cursor-pointer">
+            <button className="bg-[#F6E9E9] w-[145] h-[47] font-semibold text-[16px] rounded-lg mt-7 cursor-pointer">
               Get Started
             </button>
           </div>
