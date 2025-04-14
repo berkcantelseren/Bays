@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
 
@@ -20,12 +21,19 @@ export default function Pricing() {
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 mt-10 p-5 rounded-xl">
         {/* Grid 1 */}
         <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] gradient-custom">
-          <div className="justify-center text-center mt-10">
+          <div className="justify-center text-center mt-10 relative">
             <h1
               className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
             >
               Standard
             </h1>
+            <Image
+              src="/images/discount20.svg"
+              alt="Discount %20"
+              width={48}
+              height={22}
+              className="absolute bottom-3 right-7"
+            />
           </div>
           <div className="text-center justify-center mt-15 flex flex-row">
             <h2
@@ -47,12 +55,19 @@ export default function Pricing() {
         </div>
         {/* Grid 2 */}
         <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] gradient-custom">
-          <div className="justify-center text-center mt-10">
+          <div className="justify-center text-center mt-10 relative">
             <h1
               className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
             >
               Pro Plan
             </h1>
+            <Image
+              src="/images/discount15.svg"
+              alt="Discount %15"
+              width={48}
+              height={22}
+              className="absolute bottom-3 right-7"
+            />
           </div>
           <div className="text-center justify-center mt-15 flex flex-row">
             <h2
@@ -74,12 +89,19 @@ export default function Pricing() {
         </div>
         {/* Grid 3 */}
         <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] gradient-custom">
-          <div className="justify-center text-center mt-10">
+          <div className="justify-center text-center mt-10 relative">
             <h1
               className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
             >
               Enterprise
             </h1>
+            <Image
+              src="/images/discount30.svg"
+              alt="Discount %30"
+              width={48}
+              height={22}
+              className="absolute bottom-3 right-7"
+            />
           </div>
           <div className="text-center justify-center mt-15 flex flex-row">
             <h2
