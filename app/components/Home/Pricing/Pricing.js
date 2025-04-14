@@ -16,6 +16,39 @@ export default function Pricing() {
       >
         Simple and Transparent Pricing
       </h1>
+      {/* 3 Grid Items */}
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 mt-10 p-5 rounded-xl">
+        {/* Grid 1 */}
+        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F]">
+          <div className="justify-center text-center mt-10">
+            <h1
+              className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
+            >
+              Standard
+            </h1>
+          </div>
+        </div>
+        {/* Grid 2 */}
+        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F]">
+          <div className="justify-center text-center mt-10">
+            <h1
+              className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
+            >
+              Pro Plan
+            </h1>
+          </div>
+        </div>
+        {/* Grid 3 */}
+        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F]">
+          <div className="justify-center text-center mt-10">
+            <h1
+              className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
+            >
+              Enterprise
+            </h1>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
