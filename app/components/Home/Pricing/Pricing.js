@@ -1,4 +1,7 @@
 import BoxText from "../../Helper/BoxText";
+import { Jost } from "next/font/google";
+
+const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 
 export default function Pricing() {
   return (
@@ -8,6 +11,11 @@ export default function Pricing() {
           <BoxText>Pricing</BoxText>
         </div>
       </div>
+      <h1
+        className={`text-white text-3xl sm:text-4xl md:text-[40px] font-semibold  ${jostMd.className}`}
+      >
+        Simple and Transparent Pricing
+      </h1>
     </div>
   );
 }
