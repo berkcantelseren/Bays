@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
@@ -8,7 +10,7 @@ const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 export default function Pricing() {
   const [activePricing, setActivePricing] = useState("Monthly");
 
-  const Pricing = [
+  const pricing = [
     {
       name: "Monthly",
       price: "$18",
@@ -20,6 +22,9 @@ export default function Pricing() {
       time: "/y",
     },
   ];
+
+  // Find the active pricing data based on the selected pricing plan
+  const activePricingData = pricing.find((plan) => plan.name === activePricing);
 
   return (
     <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-40 h-full">
@@ -55,7 +60,7 @@ export default function Pricing() {
             <h2
               className={`font-semibold text-[44px] text-[#F6E9E9] ${jostMd.className}`}
             >
-              $18
+              {activePricingData?.price}
             </h2>
             <h5
               className={`font-semibold text-[23px] text-[#F6E9E9] mt-6 ml-1 ${jostMd.className}`}
@@ -65,17 +70,32 @@ export default function Pricing() {
             <p
               className={`font-normal text-[16px] text-[#ADADAD] mt-8 ml-1 ${jostMd.className}`}
             >
-              /m
+              {activePricingData?.time}
             </p>
           </div>
           <div className="w-[264] h-[39] bg-[#101010] rounded-3xl border border-[#2F2F2F] flex justify-evenly items-center mx-auto mt-10">
+            {/* Buttons for Monthly and Annualy */}
             <button
-              className={`font-semibold text-[#ADADAD]/25 text-[14px] cursor-pointer ${jostMd.className}`}
+              onClick={() => setActivePricing("Monthly")}
+              className={`font-semibold text-[14px] cursor-pointer ${
+                jostMd.className
+              } ${
+                activePricing === "Monthly"
+                  ? "text-[#F6E9E9]"
+                  : "text-[#ADADAD]/25"
+              }`}
             >
               Monthly
             </button>
             <button
-              className={`font-semibold text-[#F6E9E9] text-[14px] cursor-pointer ${jostMd.className}`}
+              onClick={() => setActivePricing("Annualy")} // Set to Annualy plan
+              className={`font-semibold text-[14px] cursor-pointer ${
+                jostMd.className
+              } ${
+                activePricing === "Annualy"
+                  ? "text-[#F6E9E9]"
+                  : "text-[#ADADAD]/25"
+              }`}
             >
               Annualy
             </button>
