@@ -138,7 +138,7 @@ export default function Pricing() {
               Annualy
             </button>
           </div>
-          <div className="flex flex-col justify-center text-center mt-15 ml-30">
+          <div className="flex flex-col justify-center text-center mt-10 ml-30">
             <div className="flex flex-row">
               <Image
                 src="images/bluecheck.svg"
@@ -180,6 +180,13 @@ export default function Pricing() {
                 Limited Integrations
               </p>
             </div>
+          </div>
+          <div className="justify-center items-center flex mt-12">
+            <button
+              className={`w-[328] h-[45] bg-[#F6E9E9] text-[#101010] font-semibold rounded-xl cursor-pointer ${jostMd.className}`}
+            >
+              Buy Now
+            </button>
           </div>
         </div>
 
@@ -242,6 +249,56 @@ export default function Pricing() {
               Annualy
             </button>
           </div>
+          <div className="flex flex-col justify-center text-center mt-10 ml-30">
+            <div className="flex flex-row">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 ${jostSm.className}`}
+              >
+                Advanced Analytics
+              </p>
+            </div>
+            <div className="flex">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+                className="mt-3"
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 mt-3 ${jostSm.className}`}
+              >
+                Unlimited Integrations
+              </p>
+            </div>
+            <div className="flex">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+                className="mt-3"
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 mt-3 ${jostSm.className}`}
+              >
+                Priority Support
+              </p>
+            </div>
+          </div>
+          <div className="justify-center items-center flex mt-12">
+            <button
+              className={`w-[328] h-[45] bg-[#F6E9E9] text-[#101010] font-semibold rounded-xl cursor-pointer  ${jostMd.className}`}
+            >
+              Buy Now
+            </button>
+          </div>
         </div>
 
         {/* Grid 3 - Enterprise Plan */}
@@ -301,6 +358,56 @@ export default function Pricing() {
               }`}
             >
               Annualy
+            </button>
+          </div>
+          <div className="flex flex-col justify-center text-center mt-10 ml-30">
+            <div className="flex flex-row">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 ${jostSm.className}`}
+              >
+                Custom Features
+              </p>
+            </div>
+            <div className="flex">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+                className="mt-3"
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 mt-3 ${jostSm.className}`}
+              >
+                Dedicated Account Manager
+              </p>
+            </div>
+            <div className="flex">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+                className="mt-3"
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 mt-3 ${jostSm.className}`}
+              >
+                Enterprise-level Security
+              </p>
+            </div>
+          </div>
+          <div className="justify-center items-center flex mt-12">
+            <button
+              className={`w-[328] h-[45] bg-[#F6E9E9] text-[#101010] font-semibold rounded-xl cursor-pointer  ${jostMd.className}`}
+            >
+              Buy Now
             </button>
           </div>
         </div>
