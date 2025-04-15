@@ -52,6 +52,18 @@ export default function Pricing() {
               /m
             </p>
           </div>
+          <div className="w-[264] h-[39] bg-[#101010] rounded-3xl border border-[#2F2F2F] flex justify-evenly items-center mx-auto mt-10">
+            <button
+              className={`font-semibold text-[#ADADAD]/25 text-[14px] cursor-pointer ${jostMd.className}`}
+            >
+              Monthly
+            </button>
+            <button
+              className={`font-semibold text-[#F6E9E9] text-[14px] cursor-pointer ${jostMd.className}`}
+            >
+              Annualy
+            </button>
+          </div>
         </div>
         {/* Grid 2 */}
         <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] gradient-custom">
