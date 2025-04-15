@@ -20,7 +20,7 @@ export default function Pricing() {
     },
     {
       name: "Annualy",
-      price: "$279",
+      price: "$199",
       time: "/y",
       plan: "Standard",
     },
@@ -46,19 +46,20 @@ export default function Pricing() {
     },
     {
       name: "Annualy",
-      price: "$499",
+      price: "$549",
       time: "/y",
       plan: "Enterprise",
     },
   ];
 
-  // Filter pricing data based on the selected pricing type
   const activePricingDataStandard = pricing.find(
     (plan) => plan.name === activePricing && plan.plan === "Standard"
   );
+
   const activePricingDataPro = pricing.find(
     (plan) => plan.name === activePricing && plan.plan === "Pro"
   );
+
   const activePricingDataEnterprise = pricing.find(
     (plan) => plan.name === activePricing && plan.plan === "Enterprise"
   );
