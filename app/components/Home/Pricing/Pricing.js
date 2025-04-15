@@ -137,6 +137,7 @@ export default function Pricing() {
               Annualy
             </button>
           </div>
+          <div>test</div>
         </div>
 
         {/* Grid 2 - Pro Plan */}
