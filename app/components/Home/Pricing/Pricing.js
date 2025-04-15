@@ -119,8 +119,8 @@ export default function Pricing() {
                 jostMd.className
               } ${
                 activePricing === "Monthly"
-                  ? "text-[#F6E9E9]"
-                  : "text-[#ADADAD]/25"
+                  ? "text-[#ADADAD]/25"
+                  : "text-[#F6E9E9]"
               }`}
             >
               Monthly
@@ -131,8 +131,8 @@ export default function Pricing() {
                 jostMd.className
               } ${
                 activePricing === "Annualy"
-                  ? "text-[#F6E9E9]"
-                  : "text-[#ADADAD]/25"
+                  ? "text-[#ADADAD]/25"
+                  : "text-[#F6E9E9]"
               }`}
             >
               Annualy
@@ -230,8 +230,8 @@ export default function Pricing() {
                 jostMd.className
               } ${
                 activePricing === "Monthly"
-                  ? "text-[#F6E9E9]"
-                  : "text-[#ADADAD]/25"
+                  ? "text-[#ADADAD]/25"
+                  : "text-[#F6E9E9]"
               }`}
             >
               Monthly
@@ -242,8 +242,8 @@ export default function Pricing() {
                 jostMd.className
               } ${
                 activePricing === "Annualy"
-                  ? "text-[#F6E9E9]"
-                  : "text-[#ADADAD]/25"
+                  ? "text-[#ADADAD]/25"
+                  : "text-[#F6E9E9]"
               }`}
             >
               Annualy
@@ -341,8 +341,8 @@ export default function Pricing() {
                 jostMd.className
               } ${
                 activePricing === "Monthly"
-                  ? "text-[#F6E9E9]"
-                  : "text-[#ADADAD]/25"
+                  ? "text-[#ADADAD]/25"
+                  : "text-[#F6E9E9]"
               }`}
             >
               Monthly
@@ -353,8 +353,8 @@ export default function Pricing() {
                 jostMd.className
               } ${
                 activePricing === "Annualy"
-                  ? "text-[#F6E9E9]"
-                  : "text-[#ADADAD]/25"
+                  ? "text-[#ADADAD]/25"
+                  : "text-[#F6E9E9]"
               }`}
             >
               Annualy
