@@ -1,10 +1,26 @@
 import Image from "next/image";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
+import { useState } from "react";
 
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 
 export default function Pricing() {
+  const [activePricing, setActivePricing] = useState("Monthly");
+
+  const Pricing = [
+    {
+      name: "Monthly",
+      price: "$18",
+      time: "/m",
+    },
+    {
+      name: "Annualy",
+      price: "$279",
+      time: "/y",
+    },
+  ];
+
   return (
     <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-40 h-full">
       <div className="text-center md:space-y-3">
