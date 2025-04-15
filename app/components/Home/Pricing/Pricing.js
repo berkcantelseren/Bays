@@ -6,6 +6,7 @@ import { Jost } from "next/font/google";
 import { useState } from "react";
 
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
+const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function Pricing() {
   const [activePricing, setActivePricing] = useState("Monthly");
@@ -77,9 +78,9 @@ export default function Pricing() {
         Simple and Transparent Pricing
       </h1>
       {/* 3 Grid Items */}
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 mt-10 p-5 rounded-xl">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 mt-10 p-5 rounded-xl">
         {/* Grid 1 - Standard Plan */}
-        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] gradient-custom">
+        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-3xl border border-[#3D3D3F] gradient-custom">
           <div className="justify-center text-center mt-10 relative">
             <h1
               className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
@@ -137,11 +138,53 @@ export default function Pricing() {
               Annualy
             </button>
           </div>
-          <div>test</div>
+          <div className="flex flex-col justify-center text-center mt-15 ml-30">
+            <div className="flex flex-row">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 ${jostSm.className}`}
+              >
+                Task Management
+              </p>
+            </div>
+            <div className="flex">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+                className="mt-3"
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 mt-3 ${jostSm.className}`}
+              >
+                Basic Analytics
+              </p>
+            </div>
+            <div className="flex">
+              <Image
+                src="images/bluecheck.svg"
+                alt="blue checkmark"
+                width={20}
+                height={20}
+                className="mt-3"
+              />
+              <p
+                className={`text-[#F6E9E9] font-normal text-[14px] ml-2 mt-3 ${jostSm.className}`}
+              >
+                Limited Integrations
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Grid 2 - Pro Plan */}
-        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] gradient-custom">
+        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-3xl border border-[#3D3D3F] gradient-custom">
           <div className="justify-center text-center mt-10 relative">
             <h1
               className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
@@ -202,7 +245,7 @@ export default function Pricing() {
         </div>
 
         {/* Grid 3 - Enterprise Plan */}
-        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] gradient-custom">
+        <div className="w-[408] h-[537] bg-[#1E1E1E] rounded-3xl border border-[#3D3D3F] gradient-custom">
           <div className="justify-center text-center mt-10 relative">
             <h1
               className={`font-semibold text-[23px] text-[#ADADAD] ${jostMd.className}`}
