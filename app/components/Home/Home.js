@@ -1,4 +1,5 @@
 import Benefits from "./Benefits/Benefits";
+import Faq from "./Faq/Faq";
 import Features from "./Features/Features";
 import Hero from "./Hero/Hero";
 import HowItWorks from "./HowItWorks/HowItWorks";
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonial />
       <HowItWorks />
       <Pricing />
+      <Faq />
     </div>
   );
 }
