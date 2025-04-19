@@ -52,7 +52,7 @@ export default function Faq() {
         {faqData.map((item, index) => (
           <div
             key={index}
-            className="bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] transition-all duration-300"
+            className="bg-[#1E1E1E] rounded-2xl border border-[#3D3D3F] transition-all duration-300 gradient-custom"
           >
             <button
               onClick={() => toggleFAQ(index)}
