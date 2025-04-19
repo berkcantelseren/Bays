@@ -1,6 +1,7 @@
 import Benefits from "./Benefits/Benefits";
 import Faq from "./Faq/Faq";
 import Features from "./Features/Features";
+import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
 import HowItWorks from "./HowItWorks/HowItWorks";
 import Navbar from "./Navbar/Navbar";
@@ -18,6 +19,7 @@ export default function Home() {
       <HowItWorks />
       <Pricing />
       <Faq />
+      <Footer />
     </div>
   );
 }
