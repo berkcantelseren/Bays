@@ -2,6 +2,7 @@ import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
 
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
+const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function Faq() {
   return (
@@ -14,8 +15,11 @@ export default function Faq() {
       <h1
         className={`text-white text-3xl sm:text-4xl md:text-[55px] font-semibold  ${jostMd.className}`}
       >
-        Simple and Transparent Pricing
+        Got Questions?
       </h1>
+      <p className={`text-[16px] text-[#ADADAD] mt-5 ${jostSm.className}`}>
+        We’ve Got Answers
+      </p>
     </div>
   );
 }
