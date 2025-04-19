@@ -20,6 +20,29 @@ export default function Faq() {
       <p className={`text-[16px] text-[#ADADAD] mt-5 ${jostSm.className}`}>
         We’ve Got Answers
       </p>
+      <div className="flex flex-col justify-center gap-5 mt-20">
+        <button className="w-[600] h-[72] bg-[#1E1E1E] gradient-custom rounded-2xl border border-[#3D3D3F]">
+          <p
+            className={`text-[#F6E9E9] text-[16px] text-start ml-7 ${jostSm.className}`}
+          >
+            How does the free trial work?
+          </p>
+        </button>
+        <button className="w-[600] h-[72] bg-[#1E1E1E] gradient-custom rounded-2xl border border-[#3D3D3F]">
+          <p
+            className={`text-[#F6E9E9] text-[16px] text-start ml-7 ${jostSm.className}`}
+          >
+            Can I switch plans anytime?
+          </p>
+        </button>
+        <button className="w-[600] h-[72] bg-[#1E1E1E] gradient-custom rounded-2xl border border-[#3D3D3F]">
+          <p
+            className={`text-[#F6E9E9] text-[16px] text-start ml-7 ${jostSm.className}`}
+          >
+            Is my data secure?
+          </p>
+        </button>
+      </div>
     </div>
   );
 }
