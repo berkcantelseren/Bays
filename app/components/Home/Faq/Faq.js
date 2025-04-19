@@ -82,6 +82,11 @@ export default function Faq() {
           </div>
         ))}
       </div>
+      <button
+        className={`w-[168] h-[47] bg-[#F6E9E9] text-[#1E1E1E] font-semibold rounded-lg mt-8 cursor-pointer ${jostMd.className}`}
+      >
+        View All FAQs
+      </button>
     </div>
   );
 }
