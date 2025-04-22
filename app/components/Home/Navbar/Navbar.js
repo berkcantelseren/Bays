@@ -37,16 +37,16 @@ export default function Navbar() {
               href="#features"
               className="hover:underline hover:underline-offset-4 decoration-[1px] transition"
             >
-              Featuring
+              Feature
             </a>
             <a
-              href=""
+              href="#pricing"
               className="hover:underline hover:underline-offset-4 decoration-[1px]"
             >
               Pricing
             </a>
           </div>
-          <div className="ml-auto hidden lg:flex space-x-4 sm:w-auto justify-end pr-5">
+          <div className="ml-auto hidden lg:flex space-x-4 sm:w-auto justify-end">
             <a
               href="#_"
               className="relative block w-[104] h-[48] px-6 py-3 overflow-hidden text-base font-semibold text-center text-gray-800 rounded-lg bg-white"
