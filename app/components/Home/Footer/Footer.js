@@ -65,14 +65,14 @@ export default function Footer() {
         <p className="text-[#FFFFFF] text-[16px] cursor-pointer">LinkedIn</p>
       </div>
       <p className="absolute right-150 top-85 text-white text-[16px]">
-        Crafted with ❤️ by
+        Crafted with <span className="text-xl">❤️</span> by
         <a
           href="https://www.linkedin.com/in/berkcantelseren/"
           target="_blank"
           title="Let's connect on LinkedIn"
           className="ml-2 cursor-pointer font-bold  text-[18px]"
         >
-          <span className="ml-1 px-3 py-1 rounded-full bg-[#EBD494]/5 text-[16px] font-semibold">
+          <span className="ml-1 px-3 py-1 rounded-full bg-[#EBD494]/5 text-[16px] font-semibold inline-block transform transition-transform duration-200 hover:scale-105">
             <span className="bg-gradient-to-tr from-[#EBD494] via-[#EBD494]/80 to-white bg-clip-text text-transparent">
               @pyrismarift
             </span>
