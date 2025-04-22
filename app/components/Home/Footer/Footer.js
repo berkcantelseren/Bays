@@ -1,9 +1,15 @@
+import { Jost } from "next/font/google";
+
+const jost = Jost({ subsets: ["latin"], weight: "800" });
+
 export default function Footer() {
   return (
     <div className="h-auto w-[95%] xl:w-[90%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 bg-[#1E1E1E] border border-[#3D3D3F] mt-30 rounded-3xl pt-16 pb-16">
       {/* Section 1*/}
       <div className="space-y-3">
-        <h1>BAYS</h1>
+        <h1 className={`text-[#FFFFFF] font-extrabold ${jost.className}`}>
+          BAYS
+        </h1>
       </div>
       {/* Section 2*/}
       <div className="space-y-3 inline-block">
