@@ -6,9 +6,9 @@ const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function Footer() {
   return (
-    <div className="h-auto w-[95%] xl:w-[90%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 bg-[#1E1E1E] border border-[#3D3D3F] mt-30 rounded-3xl pt-16 pb-16">
+    <div className="h-auto w-[95%] xl:w-[90%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 bg-[#1E1E1E] border border-[#3D3D3F] mt-30 relative rounded-3xl pt-16 pb-16 mb-20">
       {/* Section 1*/}
-      <div className="space-y-3 ml-20">
+      <div className="space-y-3 ml-25">
         <h1
           className={`text-[#FFFFFF] font-extrabold text-[24px] ${jost.className}`}
         >
@@ -25,7 +25,7 @@ export default function Footer() {
         </p>
       </div>
       {/* Section 2*/}
-      <div className="space-y-3 inline-block ml-10">
+      <div className="space-y-3 inline-block ml-20">
         <h1 className="text-[16px] font-semibold text-[#1C54E3] mb-10">
           Company
         </h1>
@@ -34,32 +34,51 @@ export default function Footer() {
         <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Blog</p>
       </div>
       {/* Section 3 */}
-      <div className="space-y-3">
+      <div className="space-y-3 ml-10">
         <h1 className="text-[16px] font-semibold text-[#1C54E3] mb-10">
-          Company
+          Product
         </h1>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">About Us</p>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Careers</p>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Blog</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Features</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Pricing</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">
+          Integrations
+        </p>
       </div>
       {/* Section 4 */}
-      <div className="space-y-3 ml-[-15]">
+      <div className="space-y-3 ml-[-5]">
         <h1 className="text-[16px] font-semibold text-[#1C54E3] mb-10">
-          Company
+          Support
         </h1>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">About Us</p>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Careers</p>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Blog</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Help Center</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Contact Us</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">
+          Terms & Privacy
+        </p>
       </div>
       {/* Section 5 */}
-      <div className="space-y-3 ml-[-15]">
+      <div className="space-y-3 ml-[-20]">
         <h1 className="text-[16px] font-semibold text-[#1C54E3] mb-10">
-          Company
+          Follow us
         </h1>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">About Us</p>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Careers</p>
-        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Blog</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Instagram</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Twitter</p>
+        <p className="text-[#FFFFFF] text-[16px] cursor-pointer">LinkedIn</p>
       </div>
+      <p className="absolute right-150 top-85 text-white text-[16px]">
+        Crafted with ❤️ by
+        <a
+          href="https://www.linkedin.com/in/berkcantelseren/"
+          target="_blank"
+          title="Let's connect on LinkedIn"
+          className="ml-2 cursor-pointer font-bold  text-[18px]"
+        >
+          <span className="ml-1 px-3 py-1 rounded-full bg-[#EBD494]/5 text-[16px] font-semibold">
+            <span className="bg-gradient-to-tr from-[#EBD494] via-[#EBD494]/80 to-white bg-clip-text text-transparent">
+              @pyrismarift
+            </span>
+          </span>
+        </a>
+      </p>
     </div>
   );
 }

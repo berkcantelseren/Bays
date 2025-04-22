@@ -29,3 +29,12 @@ html::selection {
     rgba(0, 0, 0, 0) 50%
   );
 }
+
+.gradient-red {
+  background: linear-gradient(
+    to top right,
+    #800020 0%,
+    #b3475f 50%,
+    #ffffff 100%
+  );
+}
