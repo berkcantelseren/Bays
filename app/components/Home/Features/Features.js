@@ -72,13 +72,13 @@ export default function Features() {
       {/* Features Example  */}
       <div className="border border-[#383838]/50 w-[375px] md:w-auto rounded-3xl pr-10 pl-10 pb-10 mt-20">
         {/* Buttons section */}
-        <div className="xl:flex xl:flex-wrap gap-4 w-full lg:justify-start justify-center grid grid-cols-2 md:w-fit mx-auto mt-10">
+        <div className="2xl:flex 2xl:flex-wrap gap-4 w-full lg:justify-start justify-center grid grid-cols-2 md:w-fit mx-auto mt-10">
           {features.map((feature, index) => (
             <div
               key={feature.name}
               className={`${
                 index === 4
-                  ? "col-span-2 flex justify-center xl:col-span-1 xl:justify-start"
+                  ? "col-span-2 flex justify-center 2xl:col-span-1 2xl:justify-start"
                   : ""
               }`}
             >
@@ -97,8 +97,8 @@ export default function Features() {
         </div>
 
         {/* Content section */}
-        <div className="flex flex-col xl:flex-row gap-6 mt-10">
-          <div className="bg-[#1E1E1E] rounded-3xl w-full xl:w-[700px] h-[385px] flex justify-center items-center border border-[#383838]">
+        <div className="flex flex-col 2xl:flex-row gap-6 mt-10">
+          <div className="bg-[#1E1E1E] rounded-3xl w-full 2xl:w-[700px] h-[385px] flex justify-center items-center border border-[#383838]">
             <Image
               src={activeFeatureData?.image || "/images/taskdone.svg"}
               alt={`${activeFeatureData?.name} image`}
