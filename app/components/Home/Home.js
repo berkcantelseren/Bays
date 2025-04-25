@@ -4,6 +4,7 @@ import Features from "./Features/Features";
 import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
 import HowItWorks from "./HowItWorks/HowItWorks";
+import MbFooter from "./MobileFooter/MobileFooter";
 import Navbar from "./Navbar/Navbar";
 import Pricing from "./Pricing/Pricing";
 import Testimonial from "./Testimonial/Testimonial";
@@ -19,8 +20,11 @@ export default function Home() {
       <HowItWorks />
       <Pricing />
       <Faq />
-      <div className="hidden xl:grid">
+      <div className="hidden lg:grid">
         <Footer />
+      </div>
+      <div className="flex md:flex lg:hidden">
+        <MbFooter />
       </div>
     </div>
   );

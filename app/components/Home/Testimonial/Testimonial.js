@@ -11,7 +11,7 @@ const interMd = Inter({ subsets: ["latin"], weight: "300" });
 
 export default function Testimonial() {
   return (
-    <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-30 md:mt-90 lg:mt-60 h-full md:h-[1123px]">
+    <div className="flex flex-col w-[90%] justify-center items-center mx-auto mt-30 md:mt-90 h-full md:h-[1123px]">
       <div className="text-center md:space-y-3">
         <div className="flex text-center mx-auto">
           <BoxText>Testimonial</BoxText>
@@ -49,7 +49,7 @@ export default function Testimonial() {
         </a>
       </div>
       {/* Grid part  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-[1px] gap-5 mt-15">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 auto-rows-[1px] gap-5 mt-15">
         <div className="bg-white w-[325px] md:w-[345px] h-[214px] row-span-[11] rounded-xl">
           {/* info for 1  */}
           <div className="relative">
@@ -408,7 +408,7 @@ export default function Testimonial() {
             <span className="block">respond. I highly recommend it!</span>
           </div>
         </div>
-        <div className="bg-white w-[325px] md:w-[351px] h-[263px] row-span-[13] md:row-span-[23] rounded-xl mt-4 md:mt-3 relative border sm:flex md:hidden lg:flex border-white">
+        <div className="bg-white w-[325px] md:w-[351px] h-[263px] row-span-[13] md:row-span-[23] rounded-xl mt-4 md:mt-3 relative border sm:flex md:hidden xl:flex border-white">
           {/* Info for 8 */}
           <Image
             src="/images/video2.svg"
