@@ -19,7 +19,9 @@ export default function Home() {
       <HowItWorks />
       <Pricing />
       <Faq />
-      <Footer />
+      <div className="hidden xl:grid">
+        <Footer />
+      </div>
     </div>
   );
 }

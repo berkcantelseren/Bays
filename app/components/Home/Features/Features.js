@@ -97,8 +97,8 @@ export default function Features() {
         </div>
 
         {/* Content section */}
-        <div className="flex flex-col md:flex-row gap-6 mt-10">
-          <div className="bg-[#1E1E1E] rounded-3xl w-full md:w-[700px] h-[385px] flex justify-center items-center border border-[#383838]">
+        <div className="flex flex-col lg:flex-row gap-6 mt-10">
+          <div className="bg-[#1E1E1E] rounded-3xl w-full lg:w-[700px] h-[385px] flex justify-center items-center border border-[#383838]">
             <Image
               src={activeFeatureData?.image || "/images/taskdone.svg"}
               alt={`${activeFeatureData?.name} image`}
