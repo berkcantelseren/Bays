@@ -10,7 +10,7 @@ export default function HowItWorks() {
     <div className="flex bg-[#1E1E1E] w-[90%] justify-center items-center mx-auto h-full md:h-[542px] rounded-2xl border border-[#3D3D3F] mt-90 md:mt-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-40">
         {/* Grid Item 1 */}
-        <div className="w-[460] h-[360] flex flex-col justify-start">
+        <div className="w-[260] h-[260] md:w-[460] md:h-[360] flex flex-col justify-start">
           <BoxText>How It Works Section</BoxText>
           <div className="">
             <h1
@@ -53,7 +53,7 @@ export default function HowItWorks() {
           </div>
         </div>
         {/* Grid Item 2 */}
-        <div className="bg-[#1F1F1F] gradient-custom w-[516] h-[398] flex justify-center items-center align-center rounded-2xl border border-[#3D3D3F]">
+        <div className="bg-[#1F1F1F] gradient-custom w-[316] h-[260] md:w-[516] md:h-[398] mt-35 mb-20 md:mt-0 md:mb-0 flex justify-center items-center align-center rounded-2xl border border-[#3D3D3F]">
           <Image
             src="images/step.svg"
             alt="step icon"
