@@ -26,7 +26,7 @@ export default function Benefits() {
         Transformed the way we work
       </p>
       {/* 3 Grid Items */}
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 mt-10 p-5 rounded-xl">
+      <div className="grid grid-cols-1 2xl:grid-cols-3 gap-10 mt-10 p-5 rounded-xl">
         {/* Grid Item 1 */}
         <div className="flex flex-col items-center justify-center w-[300px] md:w-[408px] h-[434px] bg-[#1E1E1E] rounded-3xl">
           {/* Inner Grid: Icon */}
