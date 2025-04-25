@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bays",
+  title: "BAYS",
   description: "Bays collects testimonials in video, audio, or text formats.",
 };
 
