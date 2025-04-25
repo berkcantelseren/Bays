@@ -7,7 +7,7 @@ const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function HowItWorks() {
   return (
-    <div className="flex bg-[#1E1E1E] w-[90%] justify-center items-center mx-auto h-full md:h-[542px] rounded-2xl border border-[#3D3D3F] mt-90 md:mt-30 2xl:mt-90">
+    <div className="flex bg-[#1E1E1E] w-[90%] justify-center items-center mx-auto h-full md:h-[542px] rounded-2xl border border-[#3D3D3F] mt-90 md:mt-30 2xl:mt-30">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-40">
         {/* Grid Item 1 */}
         <div className="w-[260] h-[260] md:w-[460] md:h-[360] flex flex-col justify-start ml-0 md:ml-30 lg:ml-25 2xl:ml-0">

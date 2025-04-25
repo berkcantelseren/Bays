@@ -81,7 +81,7 @@ export default function Pricing() {
         Simple and Transparent Pricing
       </h1>
       {/* 3 Grid Items */}
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 mt-10 p-0 md:p-5 rounded-xl">
+      <div className="grid grid-cols-1 2xl:grid-cols-3 gap-6 mt-10 p-0 md:p-5 rounded-xl">
         {/* Grid 1 - Standard Plan */}
         <div className="w-[335] h-[537] md:w-[408] md:h-[537] bg-[#1E1E1E] rounded-3xl border border-[#3D3D3F] gradient-custom">
           <div className="justify-center text-center mt-10 relative">

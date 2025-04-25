@@ -64,7 +64,7 @@ export default function Footer() {
         <p className="text-[#FFFFFF] text-[16px] cursor-pointer">Twitter</p>
         <p className="text-[#FFFFFF] text-[16px] cursor-pointer">LinkedIn</p>
       </div>
-      <p className="absolute lg:right-90 lg:top-100 xl:right-140 xl:top-85 pb-10 text-white text-[16px]">
+      <p className="absolute lg:right-90 lg:top-100 xl:right-110 xl:mt-5 xl:top-85 2xl:right-140 2xl:top-85 pb-10 text-white text-[16px]">
         Crafted with <span className="text-xl">❤️</span> by
         <a
           href="https://www.linkedin.com/in/berkcantelseren/"
