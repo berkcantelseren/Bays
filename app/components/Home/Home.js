@@ -23,7 +23,7 @@ export default function Home() {
       <div className="hidden lg:grid">
         <Footer />
       </div>
-      <div className="flex md:flex lg:hidden">
+      <div className="flex lg:hidden">
         <MbFooter />
       </div>
     </div>
