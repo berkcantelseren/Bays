@@ -404,7 +404,7 @@ export default function Testimonial() {
             <span className="block">to use, with a great design and fast</span>
             <span className="block">upload speeds for videos and audio.</span>
             <span className="block">On top of that, they have an</span>
-            <span className="block">outstanding team that's quick to</span>
+            <span className="block">outstanding team that&apos;s quick to</span>
             <span className="block">respond. I highly recommend it!</span>
           </div>
         </div>

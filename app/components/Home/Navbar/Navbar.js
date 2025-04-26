@@ -68,6 +68,8 @@ export default function Navbar() {
             onClick={() => setShowNav(true)}
           />
 
+          {/* Maybe Light Mode In Future ?  */}
+
           {/* <div className="hidden lg:flex group hover:bg-white/25 rounded-xl shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[12.1px] border border-white/10 p-2 absolute right-8 xl:right-15 w-12 h-12 justify-center items-center cursor-pointer">
             <FaMoon className="w-5 h-5 text-white cursor-pointer group-hover:text-yellow-400 transition-all duration-300" />
           </div> */}
