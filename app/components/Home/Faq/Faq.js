@@ -45,7 +45,7 @@ export default function Faq() {
         Got Questions?
       </h1>
       <p className={`text-[16px] text-[#ADADAD] mt-5 ${jostSm.className}`}>
-        We’ve Got Answers
+        We&apos;ve Got Answers
       </p>
 
       <div className="flex flex-col justify-center gap-5 mt-20 w-full max-w-[600px]">

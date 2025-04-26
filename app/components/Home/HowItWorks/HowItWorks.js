@@ -33,7 +33,7 @@ export default function HowItWorks() {
               <li className="font-semibold mb-3">
                 Customize:{" "}
                 <span className="font-normal">
-                  Tailor the platform to suit your team’s unique needs.
+                  Tailor the platform to suit your team&apos;s unique needs.
                 </span>
               </li>
               <li className="font-semibold mb-3">
