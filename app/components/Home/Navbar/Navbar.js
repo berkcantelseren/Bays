@@ -94,12 +94,12 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="#" onClick={() => setShowNav(false)}>
+                <Link href="#features" onClick={() => setShowNav(false)}>
                   Featuring
                 </Link>
               </li>
               <li>
-                <Link href="#" onClick={() => setShowNav(false)}>
+                <Link href="#pricing" onClick={() => setShowNav(false)}>
                   Pricing
                 </Link>
               </li>
