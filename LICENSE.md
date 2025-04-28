@@ -5,4 +5,4 @@ All rights reserved.
 Unauthorized copying, use, modification, distribution, or any kind of reuse without explicit permission is prohibited.
 
 This project is protected by copyright law.  
-Contact [berkcantelseren@gmail.com] for licensing inquiries.
+Contact berkcantelseren@gmail.com for licensing inquiries.
