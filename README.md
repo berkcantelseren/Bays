@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bays - Figma to Production Website
 
-## Getting Started
+**Bays** is a fully responsive and production-ready landing page, built by converting a Figma design into clean, maintainable code.  
+This project focuses on real-world design-to-development workflow, enhancing frontend development skills.
 
-First, run the development server:
+You can check out the live version here: [feedspace-bays.vercel.app](https://feedspace-bays.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 **Features**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Pixel-perfect Figma to Code Conversion**: Carefully recreated based on a real Figma design.
+- **Dynamic Content Integration**: Smoothly integrated dynamic elements for a realistic web experience.
+- **Real-world Development Workflow**: Following production-level coding standards.
+- **Fully Responsive** – Looks great on all devices (desktop, tablet, and mobile).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ **Tech Stack**
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**:
+  - **Next.js** – React framework with SSR and SSG capabilities for better performance.
+  - **React** – Building interactive and reusable UI components.
+  - **Tailwind CSS** – Utility-first CSS framework for rapid, responsive design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📈 **Future Enhancements**
 
-## Deploy on Vercel
+- Adding animations for a more dynamic user experience.
+- Implementing CMS integration for dynamic content management.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📷 **Screenshots**
+
+![Home](public/images/home.png)
