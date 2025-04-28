@@ -9,6 +9,10 @@ import Navbar from "./Navbar/Navbar";
 import Pricing from "./Pricing/Pricing";
 import Testimonial from "./Testimonial/Testimonial";
 
+// © 2025 pyrismarift. All rights reserved.
+
+// Unauthorized copying, use, or modification of this file is prohibited.
+
 export default function Home() {
   return (
     <div>
