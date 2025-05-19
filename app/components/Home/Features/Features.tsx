@@ -9,13 +9,13 @@ import { useState } from "react";
 // Fonts
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 
-export default function Features() {
-  type Feature = {
-    name: string;
-    description: string;
-    image: string;
-  };
+type Feature = {
+  name: string;
+  description: string;
+  image: string;
+};
 
+export default function Features() {
   const features: Feature[] = [
     {
       name: "Task Management",

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function MbFooter() {
   return (
     <div className="flex justify-center items-center text-center ml-17 md:ml-65">

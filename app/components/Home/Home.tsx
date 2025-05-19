@@ -1,3 +1,4 @@
+import React from "react";
 import Benefits from "./Benefits/Benefits";
 import Faq from "./Faq/Faq";
 import Features from "./Features/Features";

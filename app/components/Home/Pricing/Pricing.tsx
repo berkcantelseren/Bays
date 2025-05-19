@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
@@ -8,10 +9,15 @@ import { useState } from "react";
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
-export default function Pricing() {
-  const [activePricing, setActivePricing] = useState("Monthly");
+type Price = {
+  name: string;
+  price: string;
+  time: string;
+  plan: string;
+};
 
-  const pricing = [
+export default function Pricing() {
+  const pricing: Price[] = [
     // Standard Plan
     {
       name: "Monthly",
@@ -52,6 +58,8 @@ export default function Pricing() {
       plan: "Enterprise",
     },
   ];
+
+  const [activePricing, setActivePricing] = useState<string>(pricing[0].name);
 
   const activePricingDataStandard = pricing.find(
     (plan) => plan.name === activePricing && plan.plan === "Standard"

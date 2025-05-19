@@ -1,17 +1,17 @@
 "use client";
 
+import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import { Jost } from "next/font/google";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { CgClose } from "react-icons/cg";
-import { FaMoon } from "react-icons/fa";
 
 // Fonts
 const jost = Jost({ subsets: ["latin"], weight: "800" });
 
 export default function Navbar() {
-  const [showNav, setShowNav] = useState(false);
+  const [showNav, setShowNav] = useState<boolean>(false);
   return (
     <div className="h-[12vh] z-[100] w-full">
       <div
