@@ -56,6 +56,7 @@ export default function Hero() {
           alt="demo image"
           width={1056}
           height={578}
+          className="select-none"
           priority
         />
       </div>
