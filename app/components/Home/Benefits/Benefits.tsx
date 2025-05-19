@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from "react";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
 

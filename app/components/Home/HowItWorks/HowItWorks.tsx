@@ -1,9 +1,9 @@
+import React from "react";
 import Image from "next/image";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
 
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
-const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function HowItWorks() {
   return (

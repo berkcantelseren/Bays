@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import { useState } from "react";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
@@ -6,7 +7,12 @@ import { Jost } from "next/font/google";
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
-const faqData = [
+type FaqItem = {
+  question: string;
+  answer: string;
+};
+
+const faqData: FaqItem[] = [
   {
     question: "How does the free trial work?",
     answer:
@@ -25,9 +31,9 @@ const faqData = [
 ];
 
 export default function Faq() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 

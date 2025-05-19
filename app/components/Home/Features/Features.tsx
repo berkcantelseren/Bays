@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 import BoxText from "../../Helper/BoxText";
 import { Jost } from "next/font/google";
@@ -9,9 +10,13 @@ import { useState } from "react";
 const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 
 export default function Features() {
-  const [activeFeature, setActiveFeature] = useState("Task Management");
+  type Feature = {
+    name: string;
+    description: string;
+    image: string;
+  };
 
-  const features = [
+  const features: Feature[] = [
     {
       name: "Task Management",
       description:
@@ -44,6 +49,8 @@ export default function Features() {
     },
   ];
 
+  const [activeFeature, setActiveFeature] = useState<string>(features[0].name);
+
   // Get active feature data
   const activeFeatureData = features.find(
     (feature) => feature.name === activeFeature
@@ -60,12 +67,12 @@ export default function Features() {
         </div>
       </div>
       <h1
-        className={`text-white text-3xl sm:text-4xl md:text-[40] font-semibold text-center  ${jostMd.className}`}
+        className={`text-white text-3xl sm:text-4xl md:text-[40px] font-semibold text-center  ${jostMd.className}`}
       >
         Discover features
       </h1>
       <span
-        className={`block text-white text-3xl sm:text-4xl md:text-[40] font-semibold text-center ${jostMd.className}`}
+        className={`block text-white text-3xl sm:text-4xl md:text-[40px] font-semibold text-center ${jostMd.className}`}
       >
         that help your team achieve more
       </span>

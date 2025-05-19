@@ -1,7 +1,7 @@
+import React from "react";
 import { Jost } from "next/font/google";
 
 const jost = Jost({ subsets: ["latin"], weight: "800" });
-const jostMd = Jost({ subsets: ["latin"], weight: "500" });
 const jostSm = Jost({ subsets: ["latin"], weight: "300" });
 
 export default function Footer() {
